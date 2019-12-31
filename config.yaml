@@ -1,7 +1,7 @@
 baseURL: https://hoontaeklee.github.io
 languageCode: en-us
 defaultContentLanguage: en
-title: Cupper
+title: HoonTaek Lee
 theme: cupper-hugo-theme
 googleAnalytics: UA-123456789-1
 disqusShortname: htlee
@@ -30,14 +30,14 @@ menu:
     - name: Home
       url: /
       weight: 1
-    - name: Blog
-      url: /post/
-      weight: 2
-    - name: Tags
-      url: /tags/
-      weight: 3
     - name: About
       url: /about/
+      weight: 2
+    - name: Blog
+      url: /post/
+      weight: 3
+    - name: Tags
+      url: /tags/
       weight: 4
     - name: RSS
       url: /index.xml
