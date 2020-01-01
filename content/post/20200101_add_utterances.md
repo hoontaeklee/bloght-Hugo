@@ -65,7 +65,6 @@ draft: false
 원하는 결과가 나왔다:
 
 ![](20200101_add_utterances/20200101_add_utterances_fig1.jpg)
-
 한 가지 문제가 있다. 원래 `Cupper` 테마는 댓글 플러그인으로 `Disqus` 사용을 전제로 만들어진 것 같다. 위 그림의 `Show comments` 버튼을 누르면 "Disqus comments are disabled."라는 메시지가 뜬다. 두 가지 안이 있다.
 
 1. 저 버튼을 살리면서 `Disqus`를 `utterances`로 교체: 버튼 디자인이 테마와 잘 어울린다
@@ -146,8 +145,8 @@ draft: false
 웹페이지를 보면
 
 ![](20200101_add_utterances/20200101_add_utterances_fig2.jpg)
-
-잘 나왔다. `Show comments` 버튼을 클리하면 위 그림과 같이 나온다.  
+잘 나왔다. `Show comments` 버튼을 클릭하면 위 그림과 같이 나온다.  
+다만, `Dark` 모드로 바꾸면 같이 어둡게 변하면 좋겠는데 계속 밝게 남아있어서 거슬린다. 일단은 여기까지.
 
 ## Reference
 
