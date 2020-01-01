@@ -91,13 +91,12 @@ Hugo version
     - 아까 `hugo new site bloght` 명령을 통해 `bloght`를 블로그 저장소로 만들었는데, 이 때 블로그 세팅 정보가 담겨 있는 `config.toml` 파일이 생성됐었다.
     - `theme`의 `exampleSite` 폴더에 있는 `config.toml` (or `config.yaml`) 파일과 `content` 폴더를 `bloght`로 복사한다.
     - 내가 선택한 테마가 `config.yaml`를 사용할 경우 기존 `bloght`의 `config.toml`은 없애준다(에러나더라. 충돌하는 듯?)
-- config.toml의 `theme` 변수를 선택한 테마 이름으로 변경해준다(직접 해도 되고, 명령어로도 가능:
-```
-echo `theme = "cupper-hugo-theme"` >> config.yaml
-```
-
-- baseURL (--> "https://username.github.io"), 블로거 이름 등 바꿔준다.
-- 기타 커스터마이징하고 싶으면 exampleSite의 config파일 구조를 분석하거나 구글링.
+    - config.toml의 `theme` 변수를 선택한 테마 이름으로 변경해준다(직접 해도 되고, 명령어로도 가능:
+      ```
+      echo `theme = "cupper-hugo-theme"` >> config.yaml
+      ```
+  - baseURL (--> "https://username.github.io"), 블로거 이름 등 바꿔준다.
+  - 기타 커스터마이징하고 싶으면 exampleSite의 config파일 구조를 분석하거나 구글링.
 
 ## 원격 저장소 세팅
 
