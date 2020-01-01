@@ -121,7 +121,7 @@ nav.html 파일을 보면...
 
 결과
 
-![](./cupper_setting_datetime_for_posts/cupper_setting_datetime_for_posts_q1-1.jpg)
+![](20200101_cupper_setting_datetime_for_posts_q1-1.jpg)
 
 왼쪽에도 dark/light 버튼이 생겼다.
 원래 맨 아래에 만들고 싶었으나 html은 잘 모르므로 이정도로 만족.
@@ -141,7 +141,7 @@ Front matter에서 사용하는 `.PublishDate`, `.Date`, `.Lastmod`의 표현 �
 
 현재 Blog 페이지는 아래처럼 생겼고
 
-![](./cupper_setting_datetime_for_posts/cupper_setting_datetime_for_posts_q2-1.jpg)
+![](20200101_cupper_setting_datetime_for_posts_q2-1.jpg)
 
 
 list.html은 아래처럼 생겼다.
@@ -177,19 +177,19 @@ list.html은 아래처럼 생겼다.
 
 `</a>` 위에 `{{ .Date }}`를 추가해보자.
 
-![](./cupper_setting_datetime_for_posts/cupper_setting_datetime_for_posts_q2-2.jpg)
+![](20200101_cupper_setting_datetime_for_posts_q2-2.jpg)
 
 얼추 됐다. 형식을 이쁘게 바꿔보자. 아까 문서에서 `.Format`을 사용하라고 했었다. [여기](https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference) 아래부터 쭉 템플릿이 나온다. 게시글 목록에서는 날짜까지만 표시하고, 각 게시글 안에서는 시간단위까지 기록해주자.
 
 `{{ .Date }}`를 `{{ .Date.Format "2006-01-02" }}`로 바꿔주자. 그리고 위치를 `{{ .Title }}` 위로 옮겨서 날짜 먼저 표시되도록 한다. 결과는 아래와 같다.
 
-![](./cupper_setting_datetime_for_posts/cupper_setting_datetime_for_posts_q2-3.jpg)
+![](20200101_cupper_setting_datetime_for_posts_q2-3.jpg)
 
 ### 게시 날짜, 작성 날짜 추가
 
 이제 각 게시글 내부 정보를 바꿔보자.
 
-![](./cupper_setting_datetime_for_posts/cupper_setting_datetime_for_posts_q2-4.jpg)
+![](20200101_cupper_setting_datetime_for_posts_q2-4.jpg)
 
 현재 각 게시글은 위와 같이 나온다.  
 내가 하려는 것은 Publish date뿐만 아니라 작성일(Date), 최종 수정일(Lastmod)을 추가하고 표현 형식을 yyyy-mm-dd hh:mm으로 바꾸는 것이다.  
@@ -292,7 +292,7 @@ single.html은 아래처럼 생겼다. 어디를 바꿔야 할까.
 
 위와 같이 설정한 상태에서 front matter에서 `date: 2017-01-28 23:37:00+09:00`(큰따옴표로 묶어도 상관 없다) 형식으로 입력하면 아래와 같은 결과가 나온다:
 
-![](./cupper_setting_datetime_for_posts/cupper_setting_datetime_for_posts_q2-5.jpg)
+![](20200101_cupper_setting_datetime_for_posts_q2-5.jpg)
 
 `+09:00`은 KST라고 잘 표현되고, `+06:00`, `-02:00` 등 다른 시간도 해당 로컬 시간 이름은 아니지만 입력한대로 잘 표현된다.
 
