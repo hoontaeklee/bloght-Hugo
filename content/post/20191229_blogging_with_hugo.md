@@ -3,7 +3,7 @@ title: Hugo를 이용해 Github 저장소에서 블로그용 정적 웹페이지
 author: "Hoontaek Lee"
 date: "2019-12-29 04:17:00+09:00"
 publishdate: "2020-01-01 13:37:00+09:00"
-lastmod: "2020-01-01 13:37:00+09:00"
+lastmod: "2020-01-01 17:00:00+09:00"
 tags:
 - Hugo
 - GitHub
@@ -78,7 +78,7 @@ Hugo version
     - 한글 지원이 잘 되는(+폰트)
     - dark/light 전환 가능한
     - 모바일에서도 잘 보이는
-    -`cupper-hugo-theme`, `kiss`, `vanilla-bootstrap-hugo-theme`, `hugo-theme-yuki`
+    - `cupper-hugo-theme`, `kiss`, `vanilla-bootstrap-hugo-theme`, `hugo-theme-yuki`
   - 테마 사용: `cmd`에서 블로그 폴더(`bloght`)로 이동 후 아래 명령 실행:
       ```
       git submodule add https://github.com/zwbetz-gh/cupper-hugo-theme.git themes/cupper-hugo-theme
