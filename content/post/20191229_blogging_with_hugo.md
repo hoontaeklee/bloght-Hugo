@@ -12,9 +12,9 @@ tags:
 draft: false
 ---
 
-
+<!--
 ## 목차
-<!-- TOC -->
+
 - [설치](#%EC%84%A4%EC%B9%98)
 - [웹사이트 생성](#%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%83%9D%EC%84%B1)
 - [테마 적용](#%ED%85%8C%EB%A7%88-%EC%A0%81%EC%9A%A9)
@@ -22,7 +22,8 @@ draft: false
 - [포스팅 & 호스팅](#%ED%8F%AC%EC%8A%A4%ED%8C%85--%ED%98%B8%EC%8A%A4%ED%8C%85)
 - [Trouble Shooting](#trouble-shooting)
 - [Reference](#reference)
-<!-- /TOC -->
+
+-->
 
 ## 설치
 
@@ -206,6 +207,7 @@ git push origin master
 ```
 ./deploy.sh "commit message"
 ```
+
     - 가끔 잘 안 된다: 내가 변경한 파일이 untracked file이어서 Github로 push가 안 된다. 이럴 때는 수동으로 해주면 된다.
 
 ## Trouble Shooting
