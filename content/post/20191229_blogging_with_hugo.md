@@ -208,7 +208,7 @@ git push origin master
 ./deploy.sh "commit message"
 ```
 
-    - 가끔 잘 안 된다: 내가 변경한 파일이 untracked file이어서 Github로 push가 안 된다. 이럴 때는 수동으로 해주면 된다.
+- 가끔 잘 안 된다: 내가 변경한 파일이 untracked file이어서 Github로 push가 안 된다. 이럴 때는 수동으로 해주면 된다.
 
 ## Trouble Shooting
 
