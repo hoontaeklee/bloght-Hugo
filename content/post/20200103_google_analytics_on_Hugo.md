@@ -96,8 +96,32 @@ GA에서 해당 속성 페이지의 실시간 개요 페이지를 연다(**크�
 
 ![](20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig3.jpg)
 
+[이 답글](https://discourse.gohugo.io/t/how-to-exclude-google-analytics-when-running-under-hugo-local-server/6092/34)을 참고해서 `header.html`을 다음과 같이 수정했다:
 
+```
+<header class="intro-and-nav" role="banner">
+  <div>
+    <div class="intro">
+      <a class="logo" href="/" aria-label="{{ .Site.Title }} home page">
+        <img src="{{ "images/logo.svg" | absURL }}" alt="">
+      </a>
+      <p class="library-desc">
+        {{ with .Site.Params.description }}
+          {{ . | markdownify }}
+        {{ end }}
+      </p>
+    </div>
+    {{ partial "nav.html" . }}
+    {{- if not .Site.IsServer -}}
+      {{ template "_internal/google_analytics.html" . }}
+    {{- end -}}
+  </div>
+</header>
+```
 
+`push` 후 결과를 확인해보면...
+
+![](20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig4.jpg)
 
 ## References
 
