@@ -59,7 +59,45 @@ GA에서 해당 속성 페이지의 실시간 개요 페이지를 연다(**크�
 
 - 블로그 `root` 폴더 내 `layouts` 폴더에 `partials` 폴더를 만들어서 여기에 `header.html`을 생성하도록 한다. 직접 `themes` 폴더에 있는 코드를 직접 수정하는 것보다는, 원래 테마 코드는 그대로 보존한 채 root 폴더 내에 `themes` 구조를 복사해서 수정하는 것이 좋다고 한다. 테마에 관한 다른 커스터마이징에도 똑같이 해당된다(나는 이미 원래 코드를 많이 바꿔버렸지만).
 
-2.  
+2. `{{ template "_internal/google_analytics.html" . }}`를 추가한다
+
+내가 참고한 글과 내 블로그의 config가 다르게 생겨서 임의로 비슷한 위치에 추가했다.
+
+```
+<header class="intro-and-nav" role="banner">
+  <div>
+    <div class="intro">
+      <a class="logo" href="/" aria-label="{{ .Site.Title }} home page">
+        <img src="{{ "images/logo.svg" | absURL }}" alt="">
+      </a>
+      <p class="library-desc">
+        {{ with .Site.Params.description }}
+          {{ . | markdownify }}
+        {{ end }}
+      </p>
+    </div>
+    {{ partial "nav.html" . }}
+      {{ template "_internal/google_analytics.html" . }}
+  </div>
+</header>
+```
+
+저장 후 확인:
+
+![](20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig2.jpg)
+
+접속자 수가 1명으로 올랐다.
+
+### local 서버 접속자 수는 제외하기
+
+잘 작동해서 기분 좋지만, 로컬 서버 접속 여부는 별로 궁금하지 않을 것이다. 내가 `hugo server`를 통해 접속하는 경우는 추적하지 않도록 바꿔보자.
+
+현재 내 블로그에는 3명(모두 나다)이 접속 중이다(로컬, 노트북, 데스크탑).
+
+![](20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig3.jpg)
+
+
+
 
 ## References
 
