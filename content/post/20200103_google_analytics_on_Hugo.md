@@ -123,6 +123,9 @@ GA에서 해당 속성 페이지의 실시간 개요 페이지를 연다(**크�
 
 ![](20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig4.jpg)
 
+테마 수정 내용은 원격으로 푸쉬가 안 된다. git status를 보면 추적 대상이 아니다.
+깃허브 저장소에서 테마폴더를 클릭하면 원 저자의 저장소로 이동된다. 테마를 서브모듈 형태로 추가했기 때문이다. 즉, 로컬에서 직접 테마의 원래 코드를 수정하면 푸쉬를 하지 못 한다는 것이다. 루트에 테마 구조를 복사한 후 루트에서 커스터마이징 해야 할 듯.
+
 ## References
 
 - [Setting Up Google Analytics on Hugo](http://cloudywithachanceofdevops.com/posts/2018/05/17/setting-up-google-analytics-on-hugo/)
