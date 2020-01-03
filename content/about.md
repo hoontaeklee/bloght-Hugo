@@ -1,16 +1,13 @@
 ---
-date: "2014-04-09"
-title: "About"
+title: About
+author: "Hoontaek Lee"
+date: 2020-01-03 20:39:00+09:00
+publishdate: 2020-01-03 20:39:00+09:00
+lastmod: 2020-01-03 20:39:00+09:00
+tags:
+- Blog
+- 2020
+draft: false
 ---
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
-
-It makes use of a variety of open source projects including:
-
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+**작성 중**
