@@ -1,11 +1,14 @@
 ---
-title: "20200103_google_analytics_on_Hugo"
+title: Hugo 블로그에 Google analytics 추가하기
 author: "Hoontaek Lee"
-date: 2020-01-03 11:11:00+09:00
-publishdate: 2020-01-03 11:11:00+09:00
-lastmod: 2020-01-03 11:11:00+09:00
-tags: ["2020"]
-draft: true
+date: 2020-01-03 20:33:00+09:00
+publishdate: 2020-01-03 20:35:00+09:00
+lastmod: 2020-01-03 20:33:00+09:00
+tags:
+- Hugo
+- Customizing
+- 2020
+draft: false
 ---
 
 ## 서론
@@ -82,15 +85,15 @@ GA에서 해당 속성 페이지의 실시간 개요 페이지를 연다(**크�
 </header>
 ```
 
-저장 후 확인:
+저장 후 로컬 서버 확인:
 
 ![](20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig2.jpg)
 
 접속자 수가 1명으로 올랐다.
 
-### local 서버 접속자 수는 제외하기
+### local 서버 접속은 제외하기
 
-잘 작동해서 기분 좋지만, 로컬 서버 접속 여부는 별로 궁금하지 않을 것이다. 내가 `hugo server`를 통해 접속하는 경우는 추적하지 않도록 바꿔보자.
+잘 작동해서 기분 좋지만, 로컬 서버 접속 여부는 별로 궁금하지 않다. 내가 `hugo server`를 통해 접속하는 경우는 추적하지 않도록 바꿔보자.
 
 현재 내 블로그에는 3명(모두 나다)이 접속 중이다(로컬, 노트북, 데스크탑).
 
@@ -119,14 +122,18 @@ GA에서 해당 속성 페이지의 실시간 개요 페이지를 연다(**크�
 </header>
 ```
 
-`push` 후 결과를 확인해보면...
+`push` 후 모든 블로그 접속 해제하고 결과를 확인해보자.
 
 ![](20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig4.jpg)
 
-테마 수정 내용은 원격으로 푸쉬가 안 된다. git status를 보면 추적 대상이 아니다.
-깃허브 저장소에서 테마폴더를 클릭하면 원 저자의 저장소로 이동된다. 테마를 서브모듈 형태로 추가했기 때문이다. 즉, 로컬에서 직접 테마의 원래 코드를 수정하면 푸쉬를 하지 못 한다는 것이다. 루트에 테마 구조를 복사한 후 루트에서 커스터마이징 해야 할 듯.
+먼저 `hugo server`를 통해 로컬 서버로 접속했을 때는 0명으로 유지가 되고, 이어서 브라우저에 블로그 주소를 입력해 접속하면 위와 같이 1명으로 바뀐다. 그리고 초당 페이지뷰 수에서도 브라우저에서 페이지를 이리저리 옮기면 몇초 안에 증가하는 반응을 보이는 반면, 로컬에서는 페이지를 이리저리 움직여도 초당 페이지뷰 수가 변하지 않는다.
+
+**다만** 현자 접속자 수에서 이상한 점이 있다. 처음 접속할 때 0명에서 1명으로는 잘 바뀌는데, 창을 닫아도 다시 0명으로는 바뀌지 않는다.
+
+일단은 이대로 두자. GA가 내 블로그에서 딱히 의미 있는 기능이 될 것 같지는 않으니.
 
 ## References
 
 - [Setting Up Google Analytics on Hugo](http://cloudywithachanceofdevops.com/posts/2018/05/17/setting-up-google-analytics-on-hugo/)
 - [[GA] 구글애널리틱스 시작, 계정 생성하고 추적코드 설치하기](https://ga-study.tistory.com/4)
+- [How to Exclude Google Analytics When Running Under Hugo Local Server](https://discourse.gohugo.io/t/how-to-exclude-google-analytics-when-running-under-hugo-local-server/6092/34)
