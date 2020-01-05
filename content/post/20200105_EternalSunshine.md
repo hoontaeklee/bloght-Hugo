@@ -1,5 +1,5 @@
 ---
-title: Eternal Sunshine (이터널 션샤인)
+title: "Eternal Sunshine (이터널 션샤인)"
 author: "Hoontaek Lee"
 date: 2017-01-29 19:16:00+09:00
 publishdate: 2020-01-05 20:44:00+09:00
