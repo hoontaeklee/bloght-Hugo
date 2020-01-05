@@ -10,6 +10,4 @@ tags:
 draft: false
 ---
 
-**작성 중**
-
-- [Short CV](hoontaek_cv_2pp.pdf)
+- [Short CV](./hoontaek_cv_2pp.pdf)
