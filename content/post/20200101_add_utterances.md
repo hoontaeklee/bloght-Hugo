@@ -64,7 +64,7 @@ draft: false
 
 원하는 결과가 나왔다:
 
-![](20200101_add_utterances/20200101_add_utterances_fig1.jpg)
+![](static/images/20200101_add_utterances/20200101_add_utterances_fig1.jpg)
 
 한 가지 문제가 있다. 원래 `Cupper` 테마는 댓글 플러그인으로 `Disqus` 사용을 전제로 만들어진 것 같다. 위 그림의 `Show comments` 버튼을 누르면 "Disqus comments are disabled."라는 메시지가 뜬다. 두 가지 안이 있다.
 
