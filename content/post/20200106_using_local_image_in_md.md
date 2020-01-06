@@ -3,7 +3,7 @@ title: Hugo 블로그 게시글에 첨부한 로컬 이미지가 안 보일 때
 author: "Hoontaek Lee"
 date: 2020-01-06 11:11:00+09:00
 publishdate: 2020-01-06 20:59:44+09:00
-lastmod: 2020-01-06 21:07:44+09:00
+lastmod: 2020-01-06 22:09:44+09:00
 tags:
 - Hugo
 - Blog
@@ -30,3 +30,11 @@ draft: false
 이미지뿐만 아니라, `pdf` 등 다른 형식의 로컬 파일을 참조할 때도 마찬가지 규칙을 적용하면 된다.
 
 하지만 왜 이렇게 하면 작동하는지는 잘 모르겠다.
+
+### 누군가 Hugo 게시글에 [답변](https://discourse.gohugo.io/t/image-is-not-shown-or-broken-on-webpage/22584/12)을 올려줬다
+
+#### Root가 `public`으로 바뀌기 때문!
+
+Hugo가 웹페이지를 만들면서 `content`와 `static`의 하위 내용이 `public`에 저장된다. 그리고 `public`은 새로운 `root`가 된다. 즉, 내가 언급한 `blogRoot`의 바로 하위폴더 레벨의 폴더들이 `public`으로 옮겨지게 되는 셈이고 때문에 `/`로 시작하면 `public` 내 파일에 접근할수 있는 것이다.
+
+위의 `A.jpg` 예를 보면, 원래 주소가 `blogRoot/static/images/A.jpg`였는데, 웹페이지를 만들면 `static`의 하위 폴더인 `images`는 `public`으로 복사되어 `/public/images/A.jpg`의 주소로 바뀌게 된다. 때문에 `/images/A.jpg`와 같이 접근하는 것이다. 참고로 내가 실패했을 때는 `A.jpg`, `static/images/A.jpg` 등을 사용했었다.
