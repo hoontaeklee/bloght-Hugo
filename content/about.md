@@ -10,4 +10,4 @@ tags:
 draft: false
 ---
 
-- [Short CV](/content/hoontaek_cv_2pp.pdf)
+- [Short CV](/hoontaek_cv_2pp.pdf)
