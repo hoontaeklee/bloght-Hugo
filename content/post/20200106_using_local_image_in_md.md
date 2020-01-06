@@ -25,7 +25,7 @@ draft: false
 
 **예를 들어** 내 이미지 `A.jpg`의 주소가 `blogRoot/static/images/A.jpg`라면, 마크다운에서 참조할 때는 `/images/A.jpg`와 같이 사용하는 것이다. 마찬가지로, 이미지 `article_B.jpg`의 주소가 `blogRoot/content/post/article_B/B.jpg`라면, 마크다운에서는 `/post/article_B/B.jpg`라고 써준다. 만약 `blogRoot/content/image.jpg`에 있다면, `/image.jpg` 처럼 써 준다.
 
-`blogRoog`에 있는 이미지를 참조하는 경우는 거의 없을 것 같으니 생략한다.  
+`blogRoot`에 있는 이미지를 참조하는 경우는 거의 없을 것 같으니 생략한다.  
 
 이미지뿐만 아니라, `pdf` 등 다른 형식의 로컬 파일을 참조할 때도 마찬가지 규칙을 적용하면 된다.
 
