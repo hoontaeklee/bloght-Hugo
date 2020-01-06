@@ -145,7 +145,7 @@ draft: false
 
 웹페이지를 보면
 
-![](20200101_add_utterances/20200101_add_utterances_fig2.jpg)
+![](/static/20200101_add_utterances/20200101_add_utterances_fig2.jpg)
 잘 나왔다. `Show comments` 버튼을 클릭하면 위 그림과 같이 나온다.  
 다만, `Dark` 모드로 바꾸면 같이 어둡게 변하면 좋겠는데 계속 밝게 남아있어서 거슬린다. 일단은 여기까지.
 
