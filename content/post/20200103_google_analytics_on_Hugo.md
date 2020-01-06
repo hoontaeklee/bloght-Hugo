@@ -50,7 +50,7 @@ enableGitInfo: true
 
 GA에서 해당 속성 페이지의 실시간 개요 페이지를 연다(**크롬**, **웨일** 기준으로는 북마크 페이지 아래에 맨 왼쪽에 **GA로고** 가 있고, 다음으로 **"애널리틱스"** 글자가 나오고 그 오른쪽에 계정-속성을 선택할 수 있는 단추가 있다).
 
-![](20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig1.jpg)
+![](content/post/20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig1.jpg)
 
 현재 활성 사용자 수가 0명으로 나온다. 즉, 직접 GA 템플릿을 활성화 해야 한다 (**Cupper-hugo-theme**).
 
@@ -87,7 +87,7 @@ GA에서 해당 속성 페이지의 실시간 개요 페이지를 연다(**크�
 
 저장 후 로컬 서버 확인:
 
-![](20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig2.jpg)
+![](content/post/20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig2.jpg)
 
 접속자 수가 1명으로 올랐다.
 
@@ -97,7 +97,7 @@ GA에서 해당 속성 페이지의 실시간 개요 페이지를 연다(**크�
 
 현재 내 블로그에는 3명(모두 나다)이 접속 중이다(로컬, 노트북, 데스크탑).
 
-![](20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig3.jpg)
+![](content/post/20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig3.jpg)
 
 [이 답글](https://discourse.gohugo.io/t/how-to-exclude-google-analytics-when-running-under-hugo-local-server/6092/34)을 참고해서 `header.html`을 다음과 같이 수정했다:
 
@@ -124,7 +124,7 @@ GA에서 해당 속성 페이지의 실시간 개요 페이지를 연다(**크�
 
 `push` 후 모든 블로그 접속 해제하고 결과를 확인해보자.
 
-![](20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig4.jpg)
+![](static/images/20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig4.jpg)
 
 먼저 `hugo server`를 통해 로컬 서버로 접속했을 때는 0명으로 유지가 되고, 이어서 브라우저에 블로그 주소를 입력해 접속하면 위와 같이 1명으로 바뀐다. 그리고 초당 페이지뷰 수에서도 브라우저에서 페이지를 이리저리 옮기면 몇초 안에 증가하는 반응을 보이는 반면, 로컬에서는 페이지를 이리저리 움직여도 초당 페이지뷰 수가 변하지 않는다.
 
