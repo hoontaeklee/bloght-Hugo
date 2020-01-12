@@ -46,17 +46,50 @@ enableGitInfo: true
 원래는 1) 추적 Id를 설정하고, 2) Hugo의 GA internal template을 turn on해야 완성이다.    
 **하지만** 어떤 테마는 추적 ID만 입력하면 자동으로 GA가 활성화되기도 한다. 자신이 쓰는 테마가 이런 경우에 속한다면 여기서 설치 완료하면 된다.  
 
-작동 확인 방법은 `hugo server` 명령을 이용해 로컬 웹서버를 연다. 그리고 GA의 모니터링 페이지를 확인한다. **만약 잘 작동하고 있다면** 현자 접속자 수가 1 이상일 것이고, **작동하고 있지 않다면** 현재 접속자 수가 0일 것이다.
+작동 확인 방법은 직접 블로그 주소에 접속해보는 것이다(`https://<username>.gitub.io`).
+
+---
+
+**\*\*주의**  
+작동 확인을 위해 `hugo server` 명령을 이용해 로컬 웹서버를 열어볼 수도 있겠지만, 자신이 사용한 테마가 로컬 서버는 접속자 모니터링 대상에서 제외했을 수도 있다.
+
+내가 사용한 `cupper-hugo-theme`이 그런 경우다.
+
+`/layouts/partials/google-analytics-async.html`을 보면,
+
+```
+{{ if not .Site.IsServer }}
+  {{ with .Site.GoogleAnalytics }}
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', '{{ . }}', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  {{ end }}
+{{ end }}
+```
+
+위와 같이 `{{ if not .Site.IsServer }}`과 `{{ end }}`로 묶여있는 것을 볼 수 있다. 이 코드가 `hugo server`로 접속한 로컬 서버를 제외하는 기능인 듯하다.
+
+---
+
+ 그리고 GA의 모니터링 페이지를 확인한다. **만약 잘 작동하고 있다면** 현자 접속자 수가 1 이상일 것이고, **작동하고 있지 않다면** 현재 접속자 수가 0일 것이다.
 
 GA에서 해당 속성 페이지의 실시간 개요 페이지를 연다(**크롬**, **웨일** 기준으로는 북마크 페이지 아래에 맨 왼쪽에 **GA로고** 가 있고, 다음으로 **"애널리틱스"** 글자가 나오고 그 오른쪽에 계정-속성을 선택할 수 있는 단추가 있다).
 
 ![](/post/20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig1.jpg)
 
-현재 활성 사용자 수가 0명으로 나온다. 즉, 직접 GA 템플릿을 활성화 해야 한다 (**Cupper-hugo-theme**).
+현재 활성 사용자 수가 1명으로 나온다. 이리저리 페이지를 옮겼기 때문에 우측 상단에 초당 페이지 뷰 수에 막대가 촘촘하게 생겼다. 그리고 사용 중 페이지도 잘 모니터링 되고 있다.  
+반면, 로컬 서버로 접속하면 위와 같은 변화가 나타나지 않는다.
+
+
 
 ## Hugo Internal Template for Google Analytics 활성화
 
-이 글에서는 `header.html`에 GA를 추가한다. 이렇게 하면 블로그 내 모든 페이지에서 작동하게 된다. 추가할 위치는 필요에 따라 다른 곳으로 선택해도 된다.
+추적 ID 입력하는 것만으로 활성화가 되지 않는다면, 수동으로 GA 템플릿을 활성화 해야 한다.
+
+이 글에서는 `header.html`에 GA를 추가한다. 이렇게 하면 블로그 내 모든 페이지에서 작동하게 된다(고 한다). 추가할 위치는 필요에 따라 다른 곳으로 선택해도 된다.
 
 1. layouts/partials/header.html을 연다. (**head.html과 헷갈리지 말자**)
 
@@ -85,21 +118,12 @@ GA에서 해당 속성 페이지의 실시간 개요 페이지를 연다(**크�
 </header>
 ```
 
-저장 후 로컬 서버 확인:
-
-![](/post/20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig2.jpg)
-
-접속자 수가 1명으로 올랐다.
-
 ### local 서버 접속은 제외하기
 
-잘 작동해서 기분 좋지만, 로컬 서버 접속 여부는 별로 궁금하지 않다. 내가 `hugo server`를 통해 접속하는 경우는 추적하지 않도록 바꿔보자.
+로컬 서버 접속 여부는 별로 궁금하지 않다. 혹시 `cupper-hugo-theme`과 다르게 local 서버 접속이 모니터링 대상에 포함되어 있어서 이를 제외하고 싶다면 내가 사용한 `cupper-hugo-theme`와 같이 `/layouts/partials/google-analytics-async.html`에 `{{ if not .Site.IsServer }}`와 `{{ end }}`를 추가해도 될 것 같다.
 
-현재 내 블로그에는 3명(모두 나다)이 접속 중이다(로컬, 노트북, 데스크탑).
-
-![](/post/20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig3.jpg)
-
-[이 답글](https://discourse.gohugo.io/t/how-to-exclude-google-analytics-when-running-under-hugo-local-server/6092/34)을 참고해서 `header.html`을 다음과 같이 수정했다:
+혹은 아래 과정을 참고해본다.  
+[이 답글](https://discourse.gohugo.io/t/how-to-exclude-google-analytics-when-running-under-hugo-local-server/6092/34)을 참고해서 `header.html`을 다음과 같이 수정한다:
 
 ```
 <header class="intro-and-nav" role="banner">
@@ -122,13 +146,14 @@ GA에서 해당 속성 페이지의 실시간 개요 페이지를 연다(**크�
 </header>
 ```
 
-`push` 후 모든 블로그 접속 해제하고 결과를 확인해보자.
+## 후기
 
-![](/post/20200103_google_analytics_on_Hugo/20200103_google_analytics_on_Hugo_fig4.jpg)
+테마 제작자가 열일해준 덕분에 추정 ID 입력만으로도 작업이 얼추 끝났다.
 
-먼저 `hugo server`를 통해 로컬 서버로 접속했을 때는 0명으로 유지가 되고, 이어서 브라우저에 블로그 주소를 입력해 접속하면 위와 같이 1명으로 바뀐다. 그리고 초당 페이지뷰 수에서도 브라우저에서 페이지를 이리저리 옮기면 몇초 안에 증가하는 반응을 보이는 반면, 로컬에서는 페이지를 이리저리 움직여도 초당 페이지뷰 수가 변하지 않는다.
+하지만 이상한 점이 있다. 처음 접속할 때 현재 접속자 수가 0명에서 1명으로는 잘 바뀌는데, 창을 닫아도 다시 0명으로는 잘 바뀌지 않을 때가 있다.
 
-**다만** 현자 접속자 수에서 이상한 점이 있다. 처음 접속할 때 0명에서 1명으로는 잘 바뀌는데, 창을 닫아도 다시 0명으로는 바뀌지 않는다.
+그리고 로컬 서버뿐만 아니라, `https://<username>.gitub.io`도 모니터링 대상에서 제외하고 싶다.
+만약 내가 고정 ip주소를 사용한다면 GA 자체 필터링 기능으로 내 ip 주소를 보고서에서 제외할 수 있다(수집은 되지만 보고서에서만 제외되는 것). 자세한 건 [여기](https://blog.fakecoding.com/2019/03/28/%EA%B5%AC%EA%B8%80-%EC%95%A0%EB%84%90%EB%A6%AC%ED%8B%B1%EC%8A%A4-%EB%82%B4-%EC%A0%91%EC%86%8D-%EA%B8%B0%EB%A1%9D-%EC%A0%9C%EC%99%B8/)를 참조. 하지만 나는 주로 카페 와이파이를 사용하니까 고정 ip가 아닌 것 같다.
 
 일단은 이대로 두자. GA가 내 블로그에서 딱히 의미 있는 기능이 될 것 같지는 않으니.
 
