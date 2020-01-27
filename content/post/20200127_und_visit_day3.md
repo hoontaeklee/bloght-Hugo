@@ -1,5 +1,5 @@
 ---
-title: "UND Interview Weekend: Day3(인터뷰)"
+title: "UND Interview Weekend: Day3 (인터뷰)"
 author: "Hoontaek Lee"
 date: 2020-01-27 12:32:40+09:00
 publishdate: 2020-01-27 20:16:40+09:00
