@@ -107,7 +107,7 @@ draft: false
 
 --> 밤에 보는 Hesburgh Library. 신자들은 좋아하겠다.
 
-![](/post/20200127_und_visit_day3/day3-fig15-darkcam2.jpg)
+![](/post/20200127_und_visit_day3/day3-fig16-darkcam2.jpg)
 
 --> 밤에 보는 Freimann Life Science Center. 온실도 빛난다.
 
