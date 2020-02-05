@@ -10,7 +10,7 @@ tags:
 draft: false
 ---
 
-# 13 April, 2019 (Bonan, ANN, Climate)
+## 13 April, 2019 (Bonan, ANN, Climate)
 
 Bonan, G. B. (2016). Forests, climate, and public policy: A 500-year interdisciplinary odyssey. **_Annual Review of Ecology, Evolution, and Systematics_**, 47, 97–121.  
 
@@ -32,7 +32,7 @@ Lastly, this paper emphasizes that ESM is a key tool to understand biosphere-atm
 
 ESM has many uncertainties and should be cross-validated with other observations such as flux tower measurement and satellite data.
 
-# 20 April, 2019 (Dietze, ANN, NSC)
+## 20 April, 2019 (Dietze, ANN, NSC)
 
 Dietze, M. C. (2014). Nonstructural Carbon in Woody Plants. **_Annual Review of Plant Biology_**, 65, 667–687.  
 
@@ -42,7 +42,7 @@ Among the results, it's interesting that source and sink strengths influence NSC
 
 To realistically formulate NSC module, it would be essential to have sufficient amount of measurement with an unified methodology like flux tower measurement of EC method which forms a global network.    
 
-# 27 April, 2019 (Van den Hoof, JGRBG, JULES)
+## 27 April, 2019 (Van den Hoof, JGRBG, JULES)
 
 Van den Hoof, C. and Lambert, F. (2016). Mitigation of drought negative effect of ecosystem productivity by vegetation mixing. **_Journal of Geophysical Research: Biogeosciences_**, 121, 2667–2683.  
 
@@ -54,7 +54,7 @@ In addition to the design, they reasonably interpreted the beneath of the mixing
 
 [^1]: Park, J., Kim, H.-S., Lee, S.-J. and Ha, T. 2018. Numerical Evaluation of JULES Surface Tiling Scheme with High-Resolution Atmospheric Forcing and Land Cover Data. **_SOLA_**, 14, 19-24.
 
-# 5 May, 2019 (Xu, NPH, ED-Hydro)
+## 5 May, 2019 (Xu, NPH, ED-Hydro)
 
 Xu, X., Medvigy, D., Powers, J.S., Becknell, J.M. and Guan, K. (2016). Diversity in plant hydraulic traits explains seasonal and inter‐annual variations of vegetation dynamics in seasonally dry tropical forests. **_New Phytologist_** 212(1), 80-95.
 
@@ -62,7 +62,7 @@ This paper incoporated hydraulic module into the ED2. This module accounted for 
 
 The approach the hydraulic module used was attractive. The hydraulic traits of each PFT could be naturally and separately considered. This consideration will improve simulations for carbon and water and especially ones under drought condition. Also, it was interesting that the model could show the contribution of night time transpiration to restoration of tree water storage. On the other hand, the relationships between the four traits and WD or SLA seem to need improvement. This improvement may improve the model performance. In addition, by comparing the models before and after incoporating the improvement, the contribution of the relationship to the simulation will be quantified and some meaningful functions of the traits to ecosystem may be drawn.
 
-# 11 May, 2019 (Zhang, JGRBG, CLM4.5)
+## 11 May, 2019 (Zhang, JGRBG, CLM4.5)
 
 Zhang, L., Lei, H., Shen, H., Cong, Z., Yang, D. and Liu, T. (2019). Evaluating the representation of vegetation phenology in the Community Land model 4.5 in a temperate grassland. **_Journal of Geophysical Research: Biogeosciences_** 124.
 
@@ -70,7 +70,7 @@ This was a key paper for the first revision of my paper. This paper had its focu
 
 For me, it was impressive how the authors found the causes of the two problems. They thoroughly investigated the sensitivity of the model to some parameters relevant to the problems. And they analyzed the test results concerning the internal processes of the model. On top of that, the discussion about applicability of the modified model was well written. The authors classified temperate grassland and characterized them in terms of their phenology drivers. Based on the properties they judged which type of grassland the model can be applied to.    
 
-# 18 May, 2019 (Fisher, ANN, TBM)
+## 18 May, 2019 (Fisher, ANN, TBM)
 
 Fisher, J.B., Huntzinger, D.N., Schwalm, C.R. and Sitch, S. (2014). Modeling the terrestrial biosphere. **_Annual Review of Environment and Resources_**, 39, 91-123.
 
@@ -80,7 +80,7 @@ On top of that, there was about the JULES and ED. JULES deveolopers were proud o
 
 [^2]: Quillet, A., Peng, C. and Garneau, M. (2010). Toward dynamic global vegetation models for simulating vegetation–climate interactions and feedbacks: recent developments, limitations, and future challenges. **_Environmental Reviews_**, 18, 333-353.
 
-# 26 May, 2019 (Li, GCB, SIF)
+## 26 May, 2019 (Li, GCB, SIF)
 
 Li, X., Xiao, J., He, B., Altaf Arain, M., Beringer, J., Desai, A.R., Emmel, C., Hollinger, D.Y., Krasnova, A., Mammarella, I., Noe, S.M., Ortiz, P.S., Rey-Sanchez, A.C., Rocha, A.V. and Varlagin, A. (2018). Solar-induced chlorophyll fluorescence is strongly correlated with terrestrial photosynthesis for a wide variety of biomes: First global analysis based on OCO-2 and flux tower observations. **_Global Change Biology_**, 24(9), 3990-4008.
 
@@ -90,7 +90,7 @@ GPP estimation using SIF from satellites is relatively new method, which started
 
 This method is a representative example of the potential of RS. Everytime a new algorithm for a new variable is added to satellites, satellite will observe the variable in a planet-scale scope. In addition, this method is a great example of application of physiological mechanism to the remote sensing algorithm.  
 
-# 8 June, 2019 (Hartmann, NPH, Mortality)
+## 8 June, 2019 (Hartmann, NPH, Mortality)
 
 Hartmann, H., Moura, C.F., Anderegg, W.R.L., Ruehr, N.K., Salmon, Y., Allen, C.D., Arndt, S.K., Breshears, D.D., Davi, H. and Galbraith, D. (2018). Research frontiers for improving our understanding of drought-induced tree and forest mortality. **_New Phytologist_**, 218(1), 15-28.  
 
@@ -98,7 +98,7 @@ This paper suggests some research frontiers (questions) about plant responses to
 
 Another one I want to point out is that it would better to cite the paper by Xu et al. (2016) when the authors argues a need for incorporating plant hydraulic schemes to DGVMs. This is because it is a well-structured paper and it used a novel approach of representing the plant hydraulics so that the ED model can consider the scheme of every PFTs it contains.
 
-# 15 June, 2019 (Berry, pce, FWU)
+## 15 June, 2019 (Berry, pce, FWU)
 
 Berry, Z.C., Emery, N.C., Gotsch, S.G., Goldsmith, G.R. (2019). Foliar water uptake: Processes, pathways, and integration into plant water budgets. **_Plant, Cell and Environment_**, 42, 410-423.   
 
@@ -106,7 +106,7 @@ As I saw foliar water uptake (FWU) in alert lists sometimes, I became curious ab
 
 Interesting points are: 1) sap flow measurement can contribute to this field by measuring and quantifying whole-plant scale FWU. Stable isotope method can be applied to track the water movement. Also, hydraulic traits related with the FWU need to be investigated. All these fields are among the interests of my previous lab. So, FWU might be a potential research candidate for the lab (it seems deserved). 2) FWU improves leaf water status when plants suffer drought although it occupies just a small part of the plant water fluxes. This is an important point because drought is one of the major concerns of forest science. FWU may be a game changer for plants during dry condition.  
 
-# 22 June, 2019 (Vinodkumar, AFM, SMC)
+## 22 June, 2019 (Vinodkumar, AFM, SMC)
 
 Vinodkumar and Dharssi (2019). Evaluation and calibration of a high-resolution soil moisture product for wildfire prediction and management. **_Agricultural and Forest Meteorology_**, 264, 27-39.   
 
@@ -116,7 +116,7 @@ This study is superior to mine with some reasons. One of them is that the correl
 
 As comparing with my research in NIFOS, I can go further a step because this study produced SMD as a substitute of fuel moisture content (FMC) while I am aiming to model the FMC directly and I will produce spatial distribution of FMC in the end.  
 
-# 12 August, 2019 (Resco, AFM, FMC)
+## 12 August, 2019 (Resco, AFM, FMC)
 
 Resco de Dios, V., Fellows, A.W., Nolan, R.H., Boer, M.M., Bradstock, R.A., Domingo, F. and Goulden, M.L. (2015). A semi-mechanistic model for predicting the moisture content of fine litter. **_Agricultural and Forest Meteorology_**, 203, 64-73.   
 
@@ -127,7 +127,7 @@ I contemplate that I can include this model to compare with other models in my o
 
 
 
-# 7 December, 2019 (Bar, NPH, Fire)
+##  7 December, 2019 (Bar, NPH, Fire)
 
 Bär, A., Michaletz, S.T. and Mayr, S. (2019), Fire effects on tree physiology. **_New Phytologist_**, 223: 1728-1741. doi:10.1111/nph.15871
 
@@ -135,7 +135,7 @@ My research group at NIFOS was invited to write a research paper for a special i
 This paper, as other Tansley reviews often do, includes excellent visual summaries like Figure 3 which compiles the physiological responses of plant organs to fire injuries. In short, dreadful heat and drastic drying are the major causes of burning up NSCs, malfunctioning of the hydraulic system, and increasing susceptibility to insect attacks.
 After reading this,  I felt that the mechanism behind the fire-caused tree dieback is the same as the one behind general tree dieback. Fire is just one of the triggers.
 
-# 17 December, 2019 (Smith-Martin, NPH, Liana)
+## 17 December, 2019 (Smith-Martin, NPH, Liana)
 
 Smith‐Martin, C.M., Xu, X., Medvigy, D., Schnitzer, S.A. and Powers, J.S. (2019), Allometric scaling laws linking biomass and rooting depth vary across ontogeny and functional groups in tropical dry forest lianas and trees. **_New Phytologist_**. doi:10.1111/nph.16275
 
@@ -169,7 +169,7 @@ Smith‐Martin, C.M., Xu, X., Medvigy, D., Schnitzer, S.A. and Powers, J.S. (201
 
 - **Comment**: This study is one of the leading studies that try to incorporate lianas into the ecosystem model. The results of this study are quite robust as they are based on a large dataset from *in-situ* survey including harvesting with well-organized factorial experiment design and relevant statistical methodologies. This data and ED2 were examined by each other. In sum, this study a well-done work given a unique context (Lianas), focused questions, well-organized experiment design, proper analyzing ways coping with corresponding questions, and applying a terrestrial ecosystem model. 
 
-# 18 December, 2019 (Fisher, NPH, JULES-ED)
+## 18 December, 2019 (Fisher, NPH, JULES-ED)
 
 Fisher, R., McDowell, N., Purves, D., Moorcroft, P., Sitch, S., Cox, P., Huntingford, C., Meir, P. and Ian Woodward, F. (2010), Assessing uncertainties in a second‐generation dynamic vegetation model caused by ecological scale limitations. **_New Phytologist_**, 187: 666-681. doi:10.1111/j.1469-8137.2010.03340.x
 

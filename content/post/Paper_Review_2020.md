@@ -10,7 +10,7 @@ tags:
 draft: false
 ---
 
-# 11 January, 2020 (Piao, GCB, Phenology)
+## 11 January, 2020 (Piao, GCB, Phenology)
 
 Piao S, Liu Q, Chen A, et al. Plant phenology and global climate change: Current progresses and challenges. ***Global Change Biology***, 2019;00:1–19. https://doi.org/10.1111/gcb.14619
 
@@ -25,7 +25,7 @@ Sufficient nutrients during the growing season prepare trees well for the freezi
 Precipitation may be a key factor determining the spring and autumn phenology (Fu et al., 2014, Liu et al., 2016). The snowmelt stimulates root development in spring, leading to leaf flushing (Yun et al., 2018). Water availability may also be linked with the effect of a nutrient on phenology because plants uptake nutrients and water at the same time by their roots. 
 
 
-# 21 January, 2020 (Brugnera, GCB, Liana)
+## 21 January, 2020 (Brugnera, GCB, Liana)
 
 di Porcia e Brugnera, M, Meunier, F, Longo, M, et al. Modeling the impact of liana infestation on the demography and carbon cycle of tropical forests. **_Global Change Biology_**, 2019; 25: 3767– 3780. https://doi.org/10.1111/gcb.14769
 
@@ -62,7 +62,7 @@ di Porcia e Brugnera, M, Meunier, F, Longo, M, et al. Modeling the impact of lia
   - **I like** the opening of the discussion; it say **the value of the modeling experiment**: to enable to investigate the effect of a treatment on variables which are usually not or cannot measured.
   - Also, this study indirectly showed that **abundant measurements are indispensable** for formulating and parameterizing the model; the authors had difficulties in determining the characteristics of lianas such as climbing mechanism and biomass allocation.
 
-# 4 February, 2020 (Jung, Nature, Compensatory)
+## 4 February, 2020 (Jung, Nature, Compensatory)
 
 Jung, M., Reichstein, M., Schwalm, C. et al. Compensatory water effects link yearly global land CO<sub>2</sub> sink changes to temperature. ***Nature*** 541, 516-520 (2017). https://doi.org/10.1038/nature20780
 
