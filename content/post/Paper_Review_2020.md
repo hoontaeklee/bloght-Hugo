@@ -3,7 +3,7 @@ title: "Paper Review: 2020"
 author: "HoonTaek Lee"
 date: "2020-01-11 15:00:00+09:00"
 publishdate: 2020-02-05 11:22:00+09:00
-lastmod: 2020-02-07 18:57:00+09:00
+lastmod: 2020-02-08 19:46:00+09:00
 tags:
 - Research
 - 2020
@@ -85,6 +85,7 @@ Jung, M., Reichstein, M., Schwalm, C. et al. Compensatory water effects link yea
   - The **spatial covariation of climate variables** drives the integrated global carbon-cycle response, as well as local one, and perhaps even **the strength of climate-carbon cycle feedbacks**.
   
 - **Unanswered**:
+  - Why temperature contributes little to the local-scale GPP and TER?
   - How does the local **compensation mechanism** occur?
     - The authors guessed that **the concomitant positive relationship** of soil moisture with productivity and with respiration was it (i.e. Both GPP and TER increase with SM, remaining NEE unchanged).
     - Then, **what are the differences** **between high GPP and TER** under pleasing SM condition **and** **low GPP and TER** under harsh SM condition? 
@@ -126,3 +127,4 @@ Reichstein, M., Camps-Valls, G., Stevens, B. et al. Deep learning and process un
 - **Comment**: 
   - **Bayesian framework** is effective in quantifying uncertainties or in tracing the propagation of them.
   - I think that **Reichstein is a great writer**.
+  - deluge, soothsaying, pertinent, notwithstanding, yet, tedious, exemplify, ad hoc, circumvent, 
