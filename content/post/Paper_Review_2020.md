@@ -112,7 +112,7 @@ Reichstein, M., Camps-Valls, G., Stevens, B. et al. Deep learning and process un
   2. Machine learning and the physical models can complement each other, creating a new way of modeling: **hybrid modeling.**
   3. **Strengths of the hybrid modeling**
      -  Improving parameterizations: finding optimal values and pertinent patterns (e.g. using ML-derived parameters instead of the pre-defined PFTs).
-     - Replacing a physical submodel; many submodels are of semi-empirical, where the functional form has litter theoretical basis.
+     - Replacing a physical submodel; many submodels are of semi-empirical, where the functional form has little theoretical basis.
      - Analysis of model-observation mismatch: ML can help to identify, visualize, and understand the patterns of model error, which allows us also to correct model outputs.
      - Constraining submodels
      - Surrogate modeling: ML can be used for faster simulation.
