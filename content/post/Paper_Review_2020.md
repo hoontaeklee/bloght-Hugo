@@ -127,4 +127,33 @@ Reichstein, M., Camps-Valls, G., Stevens, B. et al. Deep learning and process un
 - **Comment**: 
   - **Bayesian framework** is effective in quantifying uncertainties or in tracing the propagation of them.
   - I think that **Reichstein is a great writer**.
-  - deluge, soothsaying, pertinent, notwithstanding, yet, tedious, exemplify, ad hoc, circumvent, 
+  - deluge, soothsaying, pertinent, notwithstanding, yet, tedious, exemplify, ad hoc, circumvent,
+
+## 11 February, 2020 (Lee, Forests, NFI)
+
+Lee B, Park J, Lee H, et al. Changes of Tree Species Composition and Distribution Patterns in Mts. Jiri and Baegun, Republic of Korea over 15 Years. ***Forests***. 2020; 11(2):186. https://doi.org/10.3390/f11020186
+
+- **Question**:
+  1. **How** have species density, richness, diversity, and evenness **changed over 15 years**?
+  2. What are the **drivers** of shifts in tree species composition at the species and community levels?
+  3. What are the patterns of species diversity **along topographical and climatic environment gradients**?
+- **Context**:
+  - There are **less studies that explore mountain forests with long-term census** across the East Asia Pacific region.
+  - Previous studies are **lack in the amount of data**, thus providing little information (i.e., environmental or topographical drivers) to understand the underlying processes behind the compositional change in both species and community-levels. 
+
+- **Answer**
+  1. Mts. Jiri and Baegun could be characterized as producing **a denser and more diverse**, but relatively dominant-species-occupied (i.e., **higher-evenness**) forest structure over 15 years.
+  2. - Topography factors (**elevation**, longitude, latitude, and etc.) explained more portion (**50.4%**) of the variation of species diversity, 
+     - compared to environmental factors (**mean minimum and maximum temperatures**, temperature seasonality, annual rainfall, and etc.) did (**18.3%**).
+  3. - Species diversity showed a humped-back distribution along with species diversity (high density at intermediate elevations).
+     - Species diversity showed a humped-back distribution along with annual mean minimum temperature, exhibiting the highest diversity at approximately 6 degC.
+
+- **Implication**:
+  - The **local scale topography drivers are more significantly associated** with the distribution of species diversity.
+  - The **taxonomic information (e.g., species composition) provides insights into a mechanistic understanding** of the processes changing and shaping the temperate tree community assembly over time.
+
+- **Unanswered**:
+  - What is ecological meaning of each driver? What does the high contribution of elevation stand for?
+
+- **Comment**: 
+  - This study shows how a long-term forest inventory data set can be utilized to explore the change in structure of a forest with an application of statistical modeling (e.g., generalized additive model).
