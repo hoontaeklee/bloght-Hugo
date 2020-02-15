@@ -1,19 +1,24 @@
 {{ define "main" }}
-  <main id="main">
-    <h1>{{ .Title }}</h1>
-    <ul class="patterns-list">
-      {{ range .Data.Terms.Alphabetical }}
-        <li>
-          <h2>
-            <a href="{{ .Page.RelPermalink }}">
-              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
-              </svg>
-              {{ printf "(%d) %s" .Count .Page.Title }}
-            </a>
-          </h2>
-        </li>
-      {{ end }}
-    </ul>
-  </main>
+{{ $title := .Title }}
+<header class="header basicflex-column">
+  <h3 class="terms__title capitalize h3">{{ $title }}</h3>
+</header>
+<main class="terms main">  
+  <div class="terms__list">
+    {{ range $index, $element := .Data.Terms }}
+    {{ if $index }}
+      <a href="{{ .Page.RelPermalink }}" class="terms__item {{ if lt (len $element) 5 }}is-small{{ else if lt (len $element) 10 }}is-normal{{ else if lt (len $element) 20 }}is-medium{{ else if ge (len $element) 20 }}is-large{{ end }}">
+        <span class="terms__{{ lower  $title }}">
+          {{ $element.Page.Title }}
+        </span>
+        <span class="terms__len">({{ printf "%#v" (len $element) }})</span>
+      </a>
+    {{ end }}
+    {{ end }}
+  </div>
+</main>
+<aside class="hide">
+  {{ partial "search/site-search" . }}
+</aside>
+{{ partial "script/taxo-script" . }}
 {{ end }}
