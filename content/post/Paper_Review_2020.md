@@ -3,7 +3,7 @@ title: "Paper Review: 2020"
 author: "HoonTaek Lee"
 date: "2020-01-11 15:00:00+09:00"
 publishdate: 2020-02-05 11:22:00+09:00
-lastmod: 2020-02-08 19:46:00+09:00
+lastmod: 2020-02-15 14:43:00+09:00
 tags:
 - Research
 - 2020
@@ -129,31 +129,58 @@ Reichstein, M., Camps-Valls, G., Stevens, B. et al. Deep learning and process un
   - I think that **Reichstein is a great writer**.
   - deluge, soothsaying, pertinent, notwithstanding, yet, tedious, exemplify, ad hoc, circumvent,
 
-## 11 February, 2020 (Lee, Forests, NFI)
+## 15 February, 2020 (Ogle, CHANCE, SAM)
 
-Lee B, Park J, Lee H, et al. Changes of Tree Species Composition and Distribution Patterns in Mts. Jiri and Baegun, Republic of Korea over 15 Years. ***Forests***. 2020; 11(2):186. https://doi.org/10.3390/f11020186
+Kiona Ogle & Jarrett J. Barber (2016) Plant and Ecosystem Memory, CHANCE, 29:2, 16-22, DOI: 10.1080/09332480.2016.1181961
 
-- **Question**:
-  1. **How** have species density, richness, diversity, and evenness **changed over 15 years**?
-  2. What are the **drivers** of shifts in tree species composition at the species and community levels?
-  3. What are the patterns of species diversity **along topographical and climatic environment gradients**?
-- **Context**:
-  - There are **less studies that explore mountain forests with long-term census** across the East Asia Pacific region.
-  - Previous studies are **lack in the amount of data**, thus providing little information (i.e., environmental or topographical drivers) to understand the underlying processes behind the compositional change in both species and community-levels. 
 
-- **Answer**
-  1. Mts. Jiri and Baegun could be characterized as producing **a denser and more diverse**, but relatively dominant-species-occupied (i.e., **higher-evenness**) forest structure over 15 years.
-  2. - Topography factors (**elevation**, longitude, latitude, and etc.) explained more portion (**50.4%**) of the variation of species diversity, 
-     - compared to environmental factors (**mean minimum and maximum temperatures**, temperature seasonality, annual rainfall, and etc.) did (**18.3%**).
-  3. - Species diversity showed a humped-back distribution along with species diversity (high density at intermediate elevations).
-     - Species diversity showed a humped-back distribution along with annual mean minimum temperature, exhibiting the highest diversity at approximately 6 degC.
 
-- **Implication**:
-  - The **local scale topography drivers are more significantly associated** with the distribution of species diversity.
-  - The **taxonomic information (e.g., species composition) provides insights into a mechanistic understanding** of the processes changing and shaping the temperate tree community assembly over time.
+- **Why did I read this paper?**
 
-- **Unanswered**:
-  - What is ecological meaning of each driver? What does the high contribution of elevation stand for?
+**It is often easier to get a knowledge** (i.e., model, concept, equation, and so forth) not from the original descriptive paper, **but from other papers using the knowledge** because they introduce the knowledge after masticating it, not as it is.
 
-- **Comment**: 
-  - This study shows how a long-term forest inventory data set can be utilized to explore the change in structure of a forest with an application of statistical modeling (e.g., generalized additive model).
+This paper masticates **the stochastic antecedent modelling (SAM) framework** for beginners. This study describes what SAM does and how SAM does it, and why SAM does it with a simple example and without complicated equations. Whereas, the original paper (Ogle et al., 2015[^1]) provides in-depth explanation about the SAM, but the mathematical expressions cover here and there, making readers terrified even though the two studies exemplified the same case.
+
+
+
+- **Antecedent (or memory) effect**
+
+Antecedent effect (**the effect of the past on current and future plant and ecosystem functioning**) is the key concept gives birth to the SAM. We can see many cases of antecedent effect. For example, in the NBA, a ball handler can break the defender's ankle because the offender's cross-over a few moment ago affects the defender's movement later. By the same token, in a soccer game, the goal keeper can dive into the opposite direction when the ball is refracted because the time when the shooting was made affected the goal keeper, but the time when the ball is refracted has not done yet. In the nature, there are also many processes influenced by conditions in the past (such as photosynthesis, transpiration, leaf flushing, growth, and so forth), but the leverage differs by the timing and variables. Therefore, it is the key to estimate the leverages for each time in the past and variables.
+
+
+
+- **SAM framework**
+
+**SAM estimates the leverage** (the authors used the term "**weights**") **by the Bayesian approach**. The theoretical details and ways to implement this approach are not described in this paper.
+
+
+
+- **Figure 1. Importance of accounting the memory (or weights)**
+
+![](/post/Paper_Review_2020/2017_Ogle_fig1.jpg)
+
+The authors provides a toy data set which consists of X and Y (**simulated from the X**). When applying the classical regression approach (D.i), it seems that there is only trivial relationships between X and Y (R<sup>2</sup> = 0.07). However, when the memory effect is considered, stronger relationships appear (D.ii ~ D.iv), and the score differs by how the weights for each time assigned (B.i ~ B.iii).
+
+
+
+- **Figure 4. Interpreting the nature' memory effect from weight estimates**
+
+![](/post/Paper_Review_2020/2017_Ogle_fig4.jpg)
+
+The authors exemplifies a tree-ring growth (G) analysis explained by temperature (T) and precipitation (P) data sets. Monthly weights of T and P were estimated by the SAM and annual weights were given as the sum of 12 month weights of the year. Accorting to the results, P during the winther prior to the growth (probably implies the importance of the snowmelt) and T during summer-autumn transition period of the year before the growth. This shows that G has a longer-term memory for T than for P. As the instance shows, a researcher can verify the existing assumption or draw unexpected implication by weight estimates of SAM.
+
+- **What's next?**
+  
+  - **How to implement** the SAM framework?: Professor Ogle usually uses R packages.
+  
+  - **How does Bayesian determine the weights**?
+  
+  - **For what do I apply the SAM for my research?**
+  
+    - Possibly, I can apply the SAM for two studies for quantifying the lagged response (or memory effect):
+  
+      1) lagged response of fuel moisture content after the end of precipitation
+  
+      2) mismatched responses between transpiration (Granier sensor) and net ecosystem exchange (Eddy)
+
+[^1]: Ogle, K., Barber, J.J., Barron-Gafford, G.A., Bentley, L.P., Young, J.M., Huxman, T.E., *et al.* (2015). Quantifying ecological memory in plant and ecosystem processes. ***Ecology Letters***, 18, 221–235.
