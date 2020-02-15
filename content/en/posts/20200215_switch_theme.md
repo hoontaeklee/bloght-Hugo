@@ -8,7 +8,7 @@ tags:
 - Hugo
 - Blog
 - 2020
-draft: true
+draft: false
 ---
 
 
@@ -19,7 +19,7 @@ draft: true
 
 Hugo theme 목록에 마음에 드는 테마가 올라왔다. 기존에 사용하던 [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme) 테마에서 [Zzo](https://themes.gohugo.io//theme/hugo-theme-zzo/en/) 테마로 바꾸기로 했다. 이유는 굳이 따지지 않는다. 그냥 바꾸고 싶은 거다. 
 
-Zzo 테마는 **예쁘고**, 기능도 **있을 것 다 있고**(맨 위로 가는 버튼, 이전/다음 게시글 이동 버튼 등), **없을 기능도 있고**(Resume page, publication page, ...) **[메뉴얼](https://zzodocs.netlify.com/)도 잘 돼있다**. 
+Zzo 테마는 **예쁘고**, 기능도 **있을 것 다 있고**(맨 위로 가는 버튼, 이전/다음 게시글 이동 버튼 등), **없을 기능도 있고**(Resume page, publication page, ...), **[메뉴얼](https://zzodocs.netlify.com/)도 잘 돼있다**. 
 
 어떻게 바꿔야 할까.
 
@@ -45,34 +45,83 @@ Zzo 테마는 **예쁘고**, 기능도 **있을 것 다 있고**(맨 위로 가�
 
 0. **메뉴얼 읽기** : 메뉴얼은 **설치**(Getting Started), **페이지 관련 세팅**(Pages), **기타 세팅**(Configuration), Shortcodes, **Customization**, **External Libraries**로 구성된다. 그렇게 길지 않고 필요한 부분을 쉽게 찾을 수 있게 돼 있다.
 
+   
+
 1. **컨텐츠 백업** : Dropbox
+
+   
 
 2. **테마 삭제** :
 
    1. Cupper와 zzo 공통으로 일곱 개 폴더를 가지고 있다(archetypes, assets, data, exampleSite, images, layouts, static).
+
    2. zzo는 `i18n` 폴더(언어 설정 관련?)를 추가로 가지고 있다.
 
-3. **테마 설치** : Hugo 메뉴얼에도, 테마 메뉴얼에도 같은 코드를 알려준다.
+      
 
-   ```
-   git submodule add https://github.com/zzossig/hugo-theme-zzo.git themes/zzo
-   ```
+3. **테마 설치** : 
 
-   위 코드를 Git bash나 cmd를 이용해 블로그 폴더에서 실행한다.
+   1. 테마 다운로드
 
-   테마가 설치되면 구조를 `root`로 복사한다. 
-   
-   zzo는 `config` 폴더가 따로 있어서 이 안에 config.toml 파일이 들어있다. 따라서 `exampleSite` 폴더에 있는 `config` 폴더도 복사해왔다.
-   
-   `deploy.sh` 파일(포스팅 자동화한 배쉬 파일) 안에서 사용할 테마 이름을 zzo로 바꿔준다.
-   
-   ** **에러**
-   
-   메세지 : TOCSS: failed to transform ~~ 
-   
-   해결 : hugo extended version을 설치한다. 방법은 [여기](https://gohugo.io/getting-started/installing/#chocolatey-windows). **재부팅 필요**
-   
-   
+      Hugo 메뉴얼에도, 테마 메뉴얼에도 같은 코드를 알려준다.
+      ```
+      git submodule add https://github.com/zzossig/hugo-theme-zzo.git themes/zzo
+      ```
+      위 코드를 Git bash나 cmd를 이용해 블로그 폴더에서 실행한다.    
+      
+      
+      
+   2. 폴더 구조 수정
 
+      테마를 다운받으면, `themes/zzo` 와 `exampleSite` 폴더를 `root`로 복사한다. **Overriding**하는 것인데, **원래의 테마 코드를 건들지 않고** 내 입맛에 맞게 테마를 수정할 수 있다. 
+
+      **주의할 것**은, 내 질문에 zzo님이 답변한 것처럼 **테마 구조가 조금씩 다르다**. 예를 들어 Cupper 테마는 `post`폴더지만, zzo는 `posts` 폴더다. 그리고 `post` 폴더 구조도 Cupper는 바로 게시글이나 그림이 들어가는 반면, zzo는 다중 언어 사용을 지원하기 때문에 `en`, `ko` 언어별 폴더가 있고 각 폴더 안에 게시글 관련 파일이 담겨있다. 그리고 Cupper는 `config.toml`만 덩그러니 있는 반면, zzo는 `config` 폴더가 따로 있어서 이 안에 config.toml 파일이 들어있다.
+
+      이런 다른 점까지 모두 **똑같이 맞춰줘야** 오류가 없다. 
+
+      
+
+      3. 기타 수정할 것들
+
+         - `deploy.sh` 파일(포스팅 자동화한 배쉬 파일) 안에서 사용할 테마 이름을 zzo로 바꿔준다.
+
+         - **front matter** : 이거야말로 테마마다 가지각색이다.
+
+           
+
+      4. 반영하기
+
+         맨 처음 블로그 만들 때 했던 것처럼 `deploy.sh` 내용을 한 번 단계별로 실행하면서 문제가 없는지 살펴본다.
+
+         ```hugo &amp; git
+         # site build
+         hugo -t zzo
+         
+         # username.github.io 업데이트
+         cd public
+         git add .
+         git commit -m "commit message"
+         git push origin master
+         
+         # anyblogname 업데이트
+         git ..
+         git add .
+         git commit -m "commit message"
+         git push 
+         ```
+         
+         
+         
+         **!!!!!!!!!!!!!!!!!**
+         
+      - origin mastersite build 후에는 **몇분 기다려야** 한다(게시글이 많을 수록 더 오래 걸린다). 
+           누구처럼 404 Not Found 에러보고 이것저것 삽질하지 말자.
+         
+         - **에러**
+           메세지 : TOCSS: failed to transform ~~        
+           해결 : hugo extended version을 설치한다. 방법은 [여기](https://gohugo.io/getting-started/installing/#chocolatey-windows). **재부팅 필요**
+         
+           
+      
 # Close
 
