@@ -157,7 +157,7 @@ Antecedent effect (**the effect of the past on current and future plant and ecos
 
 - **Figure 1. Importance of accounting the memory (or weights)**
 
-![](/post/Paper_Review_2020/2017_Ogle_fig1.jpg)
+  ![](/post/Paper_Review_2020/2017_Ogle_fig1.jpg)
 
 The authors provides a toy data set which consists of X and Y (**simulated from the X**). When applying the classical regression approach (D.i), it seems that there is only trivial relationships between X and Y (R<sup>2</sup> = 0.07). However, when the memory effect is considered, stronger relationships appear (D.ii ~ D.iv), and the score differs by how the weights for each time assigned (B.i ~ B.iii).
 
@@ -165,7 +165,7 @@ The authors provides a toy data set which consists of X and Y (**simulated from 
 
 - **Figure 4. Interpreting the nature' memory effect from weight estimates**
 
-![](/post/Paper_Review_2020/2017_Ogle_fig4.jpg)
+  ![](/post/Paper_Review_2020/2017_Ogle_fig4.jpg)
 
 The authors exemplifies a tree-ring growth (G) analysis explained by temperature (T) and precipitation (P) data sets. Monthly weights of T and P were estimated by the SAM and annual weights were given as the sum of 12 month weights of the year. Accorting to the results, P during the winther prior to the growth (probably implies the importance of the snowmelt) and T during summer-autumn transition period of the year before the growth. This shows that G has a longer-term memory for T than for P. As the instance shows, a researcher can verify the existing assumption or draw unexpected implication by weight estimates of SAM.
 
