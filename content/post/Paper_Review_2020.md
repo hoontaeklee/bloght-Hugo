@@ -137,7 +137,7 @@ Kiona Ogle & Jarrett J. Barber (2016) Plant and Ecosystem Memory, CHANCE, 29:2, 
 
 - **Why did I read this paper?**
 
-**It is often easier to get a knowledge** (i.e., model, concept, equation, and so forth) not from the original descriptive paper, **but from other papers using the knowledge** because they introduce the knowledge after masticating it, not as it is.
+**It is often easier to get knowledge** (i.e., model, concept, equation, and so forth) not from the original descriptive paper, **but from other papers using the knowledge** because they introduce the knowledge after masticating it, not as it is.
 
 This paper masticates **the stochastic antecedent modelling (SAM) framework** for beginners. This study describes what SAM does and how SAM does it, and why SAM does it with a simple example and without complicated equations. Whereas, the original paper (Ogle et al., 2015[^1]) provides in-depth explanation about the SAM, but the mathematical expressions cover here and there, making readers terrified even though the two studies exemplified the same case.
 
