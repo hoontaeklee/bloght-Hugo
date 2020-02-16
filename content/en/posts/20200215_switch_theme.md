@@ -11,10 +11,6 @@ tags:
 draft: false
 ---
 
-
-
-
-
 # Intro
 
 Hugo theme 목록에 마음에 드는 테마가 올라왔다. 기존에 사용하던 [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme) 테마에서 [Zzo](https://themes.gohugo.io//theme/hugo-theme-zzo/en/) 테마로 바꾸기로 했다. 이유는 굳이 따지지 않는다. 그냥 바꾸고 싶은 거다. 
@@ -124,4 +120,10 @@ Zzo 테마는 **예쁘고**, 기능도 **있을 것 다 있고**(맨 위로 가�
            
       
 # Close
+
+어찌어찌 뼈대는 완성됐다. 이쁘군.
+
+**관건은 테마 구조 똑같이 맞춰주기**였다.
+
+검색엔진노출 설정, Google Analytics 설정만 아니었으면 블로그 하나 다시 만드는 게 나을지도 모르겠다(별 거 아니라 생각되면 그냥 저 두 개도 새로 해도 되겠다).
 
