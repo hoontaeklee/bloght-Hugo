@@ -9,6 +9,8 @@ tags:
 - GitHub
 - Blog
 - 2019
+categories:
+- Blog Maintenance
 draft: false
 ---
 
@@ -54,11 +56,12 @@ Hugo version
 
 ## 웹사이트 생성
   - 블로그 담을 폴더 생성(`\C:\Users\Owner\Dropbox\bloght`)
+    
     - 아무 경로 가능, 한글은 피하는 게 좋을 듯
   - `cmd`에서 해당 경로로 이동 후
        ```
        hugo new site bloght
-       ```  
+       ```
        `bloght` 폴더에 Hugo 웹사이트로서 기능하기 위한 정보가 추가된다.
 
 ## 테마 적용

@@ -10,6 +10,8 @@ tags:
 - Blog
 - Customizing
 - 2020
+categories:
+- Blog Maintenance
 draft: false
 ---
 

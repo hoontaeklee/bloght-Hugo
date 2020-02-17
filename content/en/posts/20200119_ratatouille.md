@@ -7,6 +7,8 @@ lastmod: 2020-01-19 22:27:00+09:00
 tags:
 - Movie Review
 - 2020
+categories:
+- Movie Review
 draft: false
 ---
 

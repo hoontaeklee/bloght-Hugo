@@ -8,6 +8,8 @@ tags:
 - 2020
 - Hugo
 - Daily Life
+categories:
+- Daily Life
 draft: false
 ---
 

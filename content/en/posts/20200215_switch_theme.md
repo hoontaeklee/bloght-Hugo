@@ -8,6 +8,8 @@ tags:
 - Hugo
 - Blog
 - 2020
+categories:
+- Blog Maintenance
 draft: false
 ---
 

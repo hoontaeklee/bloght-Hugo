@@ -4,13 +4,16 @@ author: "HoonTaek Lee"
 date: 2019-12-08 16:42:00+09:00
 publishdate: 2020-01-01 14:16:00+09:00
 lastmod: 2020-01-01 14:14:00+09:00
+draft: false
 tags:
 - Hugo
 - Blog
-- Github
-- RStudio
 - 2019
-draft: false
+series:
+-
+categories:
+- Blog Maintenance
+image:
 ---
 
 ## 2019. 12. 08.
