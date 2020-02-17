@@ -31,22 +31,22 @@ talksGroupByDate = "2006"
 pubPaginate = 20
 
 # whoami
-myname = "zzossig"
-email = "zzossig@gmail.com"
-whoami = "Web Developer"
+myname = "Hoontaek Lee"
+email = "lht3718@gmail.com"
+whoami = "Tree-Forest-Climate Researcher"
 bioImageUrl = ""
 useGravatar = false
 location = "Seoul, Korea"
-organization = "Hugo"
-link = "https://zzossig.io/ko"
+organization = "NIFOS"
+link = "https://hoontaeklee.github.io/en"
 
 # sidebar
 enableBio = true
 enableBioImage = true
 enableSidebar = true
 enableSidebarTags = true
-enableSidebarSeries = true
-enableSidebarCategories = true
+enableSidebarSeries = false
+enableSidebarCategories = false
 enableHomeSidebarTitles = true
 enableListSidebarTitles = true
 enableToc = true
