@@ -1,5 +1,6 @@
 ---
 title: "R에서 Open API 사용하기 - 카카오 지도"
+author: "Hoontaek Lee"
 date: 2020-02-17T19:46:25+09:00
 publishdate: 2020-01-27 20:33:00+09:00
 description:
