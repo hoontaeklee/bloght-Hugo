@@ -4,6 +4,7 @@ author: "Hoontaek Lee"
 date: 2017-01-29 19:16:00+09:00
 publishdate: 2020-01-05 20:44:00+09:00
 lastmod: 2020-01-05 20:44:00+09:00
+meta_image: images/posts/meta/20200105_EternalSunshine.jpg
 tags:
 - Movie Review
 - 2017
