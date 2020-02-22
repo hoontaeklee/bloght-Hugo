@@ -1,2 +1,3 @@
-exampleSite/public/
-resources/
+.idea/
+.vscode/
+node_modules/

@@ -12,10 +12,13 @@
     overflow-wrap: break-word;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
-
-    @include animation('slide-in-down .2s .3s 1 ease-in both');
+    
     @include themify($themes) {
       color: themed("single-header-title-color");
+    }
+
+    &[data-ani="true"] {
+      @include animation('slide-in-down .2s .3s 1 ease-in both');
     }
   }
 
@@ -62,7 +65,9 @@
   }
 
   &__contents {
-    @include animation('slide-in-left-little .2s .6s 1 ease-in both');
+    &[data-ani="true"] {
+      @include animation('slide-in-left-little .2s .6s 1 ease-in both');
+    }
     
     &--gallery {
       overflow: hidden;
@@ -252,17 +257,11 @@
     }
 
     blockquote {
-      margin: 0 1.75rem 1.75rem 1.5rem;
-      padding: 0 0 0 1.42188rem;
       font-size: 1.05rem;
       line-height: 1.75;
       color: inherit;
       opacity: 0.8;
       position: relative;
-      
-      @include themify($themes) {
-          border-left: 0.32813rem solid themed("single-blockquote-border-color");
-      }
 
       code:not([class^=language]) {
         padding: 3px 7px;
@@ -303,11 +302,29 @@
       li {
         margin-right: 2rem;
       }
+
+      blockquote {
+        margin: 0 1.5rem 1.75rem 1.75rem;
+        padding: 0 1.42188rem 0 0;
+
+        @include themify($themes) {
+          border-right: 0.32813rem solid themed("single-blockquote-border-color");
+        }
+      }
     }
 
     &[data-dir="ltr"] {
       li {
         margin-left: 2rem;
+      }
+
+      blockquote {
+        margin: 0 1.75rem 1.75rem 1.5rem;
+        padding: 0 0 0 1.42188rem;
+
+        @include themify($themes) {
+          border-left: 0.32813rem solid themed("single-blockquote-border-color");
+        }
       }
     }
 
@@ -322,6 +339,10 @@
         @include themify($codeblock) {
           color: themed('content-code-color');
         }
+      }
+
+      p {
+        margin-bottom: 0.5rem;
       }
     }
 
