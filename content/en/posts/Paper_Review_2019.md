@@ -121,7 +121,7 @@ This study is superior to mine with some reasons. One of them is that the correl
 
 As comparing with my research in NIFOS, I can go further a step because this study produced SMD as a substitute of fuel moisture content (FMC) while I am aiming to model the FMC directly and I will produce spatial distribution of FMC in the end.  
 
-## 12 August, 2019 (Resco, AFM, FMC)
+## 12 August, 2019 (Resco de Dios, AFM, FMC)
 
 Resco de Dios, V., Fellows, A.W., Nolan, R.H., Boer, M.M., Bradstock, R.A., Domingo, F. and Goulden, M.L. (2015). A semi-mechanistic model for predicting the moisture content of fine litter. **_Agricultural and Forest Meteorology_**, 203, 64-73.   
 
