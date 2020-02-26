@@ -1,5 +1,5 @@
 ---
-title: "How to outline a paper"
+title: "How to develop a research question"
 author: "Hoontaek Lee"
 date: 2019-12-17T21:28:25+09:00
 publishdate: 2020-02-23 16:54:00+09:00
