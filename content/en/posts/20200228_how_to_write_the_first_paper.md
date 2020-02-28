@@ -20,7 +20,7 @@ tags:
 
 ## Intro
 
-Kallestinova E. D. (2011). How to write your first research paper. *The Yale journal of biology and medicine*, *84*(3), 181–190.
+[Kallestinova E. D. (2011). How to write your first research paper. *The Yale journal of biology and medicine*, *84*(3), 181–190.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3178846/pdf/yjbm_84_3_181.pdf)
 
 
 
