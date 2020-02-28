@@ -10,7 +10,6 @@ enableTocContent: false
 tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
 tags:
-tags:
 - 2020
 - Paper Review
 - Research
