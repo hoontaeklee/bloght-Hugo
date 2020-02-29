@@ -5,7 +5,13 @@
   weight = 1
 
 [[main]]
+  identifier = "archive"
+  name = "Archive"
+  url = "archive"
+  weight = 2
+
+[[main]]
   identifier = "tags"
   name = "Tags"
   url = "tags"
-  weight = 2
+  weight = 3
