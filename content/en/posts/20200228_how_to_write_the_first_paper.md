@@ -1,7 +1,7 @@
 ---
 title: "How to write your first research paper"
 date: 2020-02-28T19:48:52+09:00
-lastmod: 2020-02-28T19:48:52+09:00
+lastmod: 2020-03-08T16:55:52+09:00
 description:
 draft: false
 hideToc: false
@@ -23,7 +23,7 @@ tags:
 
 
 
-**Confused** *by now* with encountering the start of a new research, I read this paper to seek for avenues. The author, Elena D. Kallestinova, provided some pragmatic **rules** with the relevant explanation. *Rather than procastinating*, I might be more helpful for my writing to dive directly into my data, models, and codes. However, I believe that keeping advices from this paper in mind would also guide me to *sifting my ideas* and finishing the draft.
+**Confused** *by now* with encountering the start of a new research, I read this paper to seek for avenues. The author, Elena D. Kallestinova, provided some pragmatic **rules** with the relevant explanation. *Rather than procastinating*, it might be more helpful for my writing to dive directly into my data, models, and codes. However, I believe that keeping advices from this paper in mind would also guide me to *sifting my ideas* and finishing the draft.
 
 
 
