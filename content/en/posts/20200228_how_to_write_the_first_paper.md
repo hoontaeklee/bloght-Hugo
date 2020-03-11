@@ -1,5 +1,6 @@
 ---
 title: "How to write your first research paper"
+author: "Hoontaek Lee"
 date: 2020-02-28T19:48:52+09:00
 lastmod: 2020-03-08T16:55:52+09:00
 description:
