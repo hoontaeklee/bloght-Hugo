@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Ogle (2019): Deep learningSAM. CHANCE"
+title: "Paper Review: Ogle (2019): SAM. CHANCE"
 author: "Hoontaek Lee"
 date: 2020-02-15T20:00:00+09:00
 publishdate: 2020-03-01T16:45:00+09:00

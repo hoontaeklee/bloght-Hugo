@@ -9,7 +9,7 @@ hideToc: false
 enableToc: true
 enableTocContent: false
 tocPosition: inner
-tocLevels: ["h2", "h3", "h4"]
+tocLevels: ["h1", "h2", "h3"]
 tags:
 - Book Review
 - Research
@@ -427,3 +427,124 @@ Box 2.2. Chaos
     - heterogeneity in space, time, and phylogeny
   - **The power of the equation** is that for any particular application it gives **a quantitative way of breaking down the overall forecast** into its components and **comparing their relative size and importance**.
   - **It is more pressing to quantify variability than it is to explain it.**
+
+
+
+# 3. Data. Large and Small
+
+
+
+## 3.1. The data cycle and best practices
+
+> 미래의 나를 위해서 + 코웤 증가하는 시대에 맞춰
+>
+> 데이터를 **잘** 관리해야 한다 - 일정 형식 + 메타데이터
+
+<br>
+
+
+- Data Life Cycle: two scales
+  1. data generation: plan - collect - assure - describe - preserve
+  2. synthesis and forecasting: discover, integrate, and analyze
+- Best practices
+  1. automated
+  2. documented
+  3. recoverable
+
+
+
+### 3.1.1. Plan
+
+> 계획을 잘 짜야 후환이 적다
+>
+> 어차피 grant proposal에도 써야 한다
+
+
+
+### 3.1.2. Collect
+
+> 미리 열제목 등 틀을 만들어 놓자.
+>
+> 그날 모은 건 그날 확인하자.
+
+
+
+### 3.1.3. Assure
+
+> QA/QC 잘 하자. 
+>
+> 원 값을 바꾸기보다는 QA/QC 플래그를 추가하는 게 좋다.
+
+
+
+### 3.1.4. Describe
+
+> 메타데이터 만들자.
+
+
+
+### 3.1.5. Preserve
+
+> 변경 기록 잘 하자.
+>
+> 공개 무료 저장소를 사용하자.
+
+
+
+### 3.1.6. Discover, integrate, analyze
+
+> 데이터 다루는 스킬 갖추자.
+
+
+
+## 3.2. Data standards and metadata
+
+### 3.2.1. Metadata
+
+> Data's provenance: 메타데이터 잘 쓰자.
+
+
+
+### 3.2.2. Data standards
+
+> 정답이 있는 건 아니지만, 그래도 서로 합의 하에 **일정한 형식**으로 데이터를 작성하자.
+
+
+
+## 3.3. Handling big data
+
+> Big-data: size, RAM size, handling tool ... 
+
+
+
+{{< boxmd >}}
+
+Box 3.1. Self-documenting Data
+
+The key to the self-documenting data is that the data and the metadata are stored together.
+
+The two most common self-documenting file formats:
+
+- the network common data format (**netCDF**)
+- the hierarchical data format (**HDF**)
+
+{{< /boxmd >}}
+
+
+
+# Scientific Workflows and the Informatics of Model-Data fusion
+
+## 4.1. Transparency, accountability, and repeatability
+
+> 재현가능해야 한다 --> 데이터, 방법, 소프트웨어 투명하게 공개
+>
+> 오픈소스 소프트웨어 적극 활용합시다.
+
+
+
+## 4.2. Workflows and automation
+
+>
+>
+>
+
