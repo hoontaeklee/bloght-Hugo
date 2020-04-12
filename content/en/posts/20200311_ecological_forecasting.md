@@ -532,7 +532,7 @@ The two most common self-documenting file formats:
 
 
 
-# Scientific Workflows and the Informatics of Model-Data fusion
+# 4. Scientific Workflows and the Informatics of Model-Data fusion
 
 ## 4.1. Transparency, accountability, and repeatability
 
@@ -544,7 +544,95 @@ The two most common self-documenting file formats:
 
 ## 4.2. Workflows and automation
 
+>재현가능해야 한다 --> 각 과정이 정확히 기록돼야 한다 --> version control (e.g. Git)
+
+
+
+- Workflow: A sequence of steps performed in an analysis
+
+
+
+{{< boxmd >}}
+
+Box 4.1. Software Development Tools
+
+An example of software development pattern
+
+1. **세팅**: *pull* the latest code from the mainline repository to your local repository
+2. **할 일 체크**: issue tracking system에 있는 건의사항이나 다음 milestone을 위해 필요한 일 확인
+3. **Ctrl+S**: 작업용 복사본(branch) 생성. 작업 하나 완료할 때마다 *commit*하기
+4. **테스트**: 완료되면 *push*.
+5. **반영 요청** (*pull request*)
+   - Collaborators가 작업 내용 검토
+   - 이상 없으면 *mainline*에 병합(pulled into the *mainline*)
+   - 작업 로그 및 comment들도 같이 저장됨
+6. **셔터 내리기**: 완료한 issue close하기.
+7. **배포**: 모든 버그, 건의 등 반영됐으면 배포하기
+
+
+
+- *pull*: 다른 branch (=version)의 코드를 가져오는 것
+- *commit*: 현재 작업중인 branch의 변경사항을 local repository에 저장 
+- *push*: 현재 branch를 remote repository에 저장
+- *mainline*: main branch (= *trunk* or *master*). Stable branch와 development branch로 나누기도 함.
+
+{{< /boxmd >}}
+
+
+
+## 4.3. Best practices for scientific computing
+
+>재현가능해야 한다 --> 올바른 습관을 기르기!
+
+
+
+My top recommendations
+
+- 계획 세우기: psuedo-coding
+- 유지보수 용이하게: Modular
+  - 하나의 기능 - 하나의 함수
+- Version control system 사용하기
+- 하나 만들때마다 테스트로 검증
+- 주석은 해당 위치에
+
+- 변수 이름 공들여서
+- 코딩에 너무 공들이지 말기: 일단 무사히 실행하는 게 목적!
+
+
+
+# 5. Introduction to Bayes
+
+## 5.1. Confronting models with data
+
+> 재현가능해야 한다 --> 데이터, 방법, 소프트웨어 투명하게 공개
 >
->
->
+> 오픈소스 소프트웨어 적극 활용합시다.
+
+
+
+## 5.1. Confronting models with data
+
+
+
+## 5.2. Probability 101
+
+
+
+## 5.3. The likelihood
+
+
+
+## 5.4. Bayes' theorem
+
+
+
+## 5.5. Prior information
+
+
+
+## 5.6. Numerical methods for Bayes
+
+
+
+## 5.7. Evaluating MCMC output
 
