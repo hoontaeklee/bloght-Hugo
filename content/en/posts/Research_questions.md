@@ -13,6 +13,7 @@ draft: true
 
 - LI-6400으로 광합성 측정할 때 잎 온도를 25도로 설정한다. **광합성 최적 온도**(optimal temperature for photosynthesis, OTP)가 일반적으로 25도라고 알려져있기 때문.
 - Kumarathunge et al. (2020, https://doi.org/10.1111/gcb.14975)은 **OTP가 수분 상태에 따라 달라진다**고 보고했다.
+  
   - 수분 조건이 충분할 때 3도 높았다.
 - **OTP에 영향을 미치는 다른 조건**도 있을 수 있다.
   - nutrient (N, P, ...)
@@ -20,7 +21,10 @@ draft: true
   - age
   - disturbances (drought, heat extreme, fire, herbivore, disease, ...)
 - OTP가 미치는 영향
+  
   - 시공간 규모를 달리 했을 때? (**model simulation** results)
+  
+    
 
 # Non-structural carbohydrates (NSC)
 
@@ -61,6 +65,8 @@ draft: true
 그리고 그 이후에는 N의 개체별 분포를 고르게 만들어서 빈익빈 부익부 현상을 완화하고 전체적으로 더 튼튼한 숲을 만들게 되는 것이다.
 
 (하지만 이는 결국 개체별 광합성량을 조절해야 하는 문제이기 때문에 실현하기는 힘들지도 모른다)
+
+
 
 # Mountainous terrain into TBMs
 
@@ -104,6 +110,8 @@ After integrating MT into TBMs ...
 
 - How differently respond to climate change?
 
+  
+
 # Examining the JULES phenology model over biomes
 
 - Does the JULES phenology model appropriately estimate the leaf area index of different biomes in the globe?
@@ -111,3 +119,17 @@ After integrating MT into TBMs ...
 - What are the causes of errors in LAI estimates of the JULES phenology model and how can the model be improved?
 
 - How does the improved JULES phenology model affect simulations of land-atmosphere exchanges (e.g. energy flux and carbon cycle)?
+
+
+
+# Examining impact of different processes at a small scale on cycles at various larger scales and their interactions
+
+- Does the propagation look different between different models?
+- Does the propagation look different between models and observations?
+- Which process? + which approach/expression for depicting the process? (target of comparison)
+  - leaf scale? tree scale? ecosystem scale? global scale?
+  - leaf scale
+    - can provide information that which process affects which process
+    - which process needs to be improved (priority)
+- Which cycles to test the impact?: water and carbon only? any other potential cycles? (e.g. nitrogen)
+- 
