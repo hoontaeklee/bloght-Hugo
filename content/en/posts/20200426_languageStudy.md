@@ -21,9 +21,11 @@ draft: false
 
 
 
+ {{< youtube id="c1o7eKjxe7I" autoplay="false" >}}
+
+
+
 # 외국어 공부의 감각 - 손에 닿을 듯한 높이의 열매
-
-
 
 ## Intro 
 
