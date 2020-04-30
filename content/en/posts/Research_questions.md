@@ -3,7 +3,7 @@ title: "Research_questions"
 author: "Hoontaek Lee"
 date: 2020-02-10 11:34:48+09:00
 publishdate: 2020-02-10 11:34:48+09:00
-lastmod: 2020-02-10 11:34:48+09:00
+lastmod: 2020-04-27 12:04:48+09:00
 tags:
 - 2020
 draft: true
@@ -68,16 +68,18 @@ draft: true
 
 
 
-# Mountainous terrain into TBMs
+# Mountainous terrain effects on cycles
+
+> mountainous terrain, complex terrain, or topographic effect
+
+
 
 **Context**
 
-- Currently, the numerical world in TBMs is flat without mountains.
-
+- The topographic effects on water and carbon cycles across various scales are uncertain.
+- Currently, TBMs depict the numerical world as flat one. (**<-- really?**)
 - A large part of the forest ecosystem locates in mountainous regions.
-
 - The mountainous region has some different conditions with those of plain.
-
 - This discrepancy may cause uncertainties in simulations of TBMs
 
 **What is the mountainous terrain?**
@@ -92,14 +94,10 @@ draft: true
 
 **Questions**
 
+- How important is the terrain effect?
 - How many TBMs consider complex elevation distribution such as in mountainous region?
-
-- Is considiering it **important?** Why the elevation matter for TBM?
-
 - How can MT be integrated into TBM?
-
 - How different are the characteristics of trees between MT and plain?
-
 - Which are the characteristics that show substantial uncertainty and need to be improved?
 
 After integrating MT into TBMs ...
@@ -132,4 +130,12 @@ After integrating MT into TBMs ...
     - can provide information that which process affects which process
     - which process needs to be improved (priority)
 - Which cycles to test the impact?: water and carbon only? any other potential cycles? (e.g. nitrogen)
+
+
+
+# Applying the SAM framework
+
+- Are antecedent effects of environmental and biological variables different by 
+  - the source of LAI, GPP, and ET (e.g. satellites, phenology models, and  measurements)?
+  - scales?
 - 
