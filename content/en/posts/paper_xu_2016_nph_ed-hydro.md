@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Xu (2016): ED-Hydro. NPH"
+title: "Paper Review: Xu (2016). ED-Hydro. NPH"
 author: "Hoontaek Lee"
 date: 2019-05-05T20:00:00+09:00
 publishdate: 2020-03-01T16:29:00+09:00

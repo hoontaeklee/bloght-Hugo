@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Resco de Dios (2019): FMC. AFM"
+title: "Paper Review: Resco de Dios (2019). FMC. AFM"
 author: "Hoontaek Lee"
 date: 2019-08-12T20:00:00+09:00
 publishdate: 2020-03-01T16:35:00+09:00

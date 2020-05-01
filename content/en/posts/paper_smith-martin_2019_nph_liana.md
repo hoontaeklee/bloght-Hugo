@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Smith-Martin (2019): Liana. NPH"
+title: "Paper Review: Smith-Martin (2019). Liana. NPH"
 author: "Hoontaek Lee"
 date: 2019-12-17T20:00:00+09:00
 publishdate: 2020-03-01T16:37:00+09:00

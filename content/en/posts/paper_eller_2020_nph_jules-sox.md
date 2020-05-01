@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Eller (2020): JULES-SOX. NPH"
+title: "Paper Review: Eller (2020). JULES-SOX. NPH"
 author: "Hoontaek Lee"
 date: 2020-02-22T20:00:00+09:00
 publishdate: 2020-03-01T16:45:00+09:00

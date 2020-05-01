@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Vinodkumar (2019): SMC. AFM"
+title: "Paper Review: Vinodkumar (2019). SMC. AFM"
 author: "Hoontaek Lee"
 date: 2019-06-22T20:00:00+09:00
 publishdate: 2020-03-01T16:34:00+09:00

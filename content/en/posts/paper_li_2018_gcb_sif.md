@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Li (2018): SIF. GCB"
+title: "Paper Review: Li (2018). SIF. GCB"
 author: "Hoontaek Lee"
 date: 2019-05-26T20:00:00+09:00
 publishdate: 2020-03-01T16:32:00+09:00

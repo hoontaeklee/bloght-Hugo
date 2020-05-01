@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Jung (2017): Compensatory. Nature"
+title: "Paper Review: Jung (2017). Compensatory. Nature"
 author: "Hoontaek Lee"
 date: 2020-02-04T20:00:00+09:00
 publishdate: 2020-03-01T16:43:00+09:00

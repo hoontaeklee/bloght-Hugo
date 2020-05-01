@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Hartmann (2018): Mortality. NPH"
+title: "Paper Review: Hartmann (2018). Mortality. NPH"
 author: "Hoontaek Lee"
 date: 2019-06-08T20:00:00+09:00
 publishdate: 2020-03-01T16:33:00+09:00

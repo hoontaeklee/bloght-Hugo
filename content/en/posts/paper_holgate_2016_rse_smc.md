@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Holgate (2016): SMC. RSE"
+title: "Paper Review: Holgate (2016). SMC. RSE"
 author: "Hoontaek Lee"
 date: 2020-02-27T20:00:00+09:00
 publishdate: 2020-03-01T16:46:00+09:00

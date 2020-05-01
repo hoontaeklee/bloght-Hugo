@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Van den Hoof (2016): JULES. JGRBG"
+title: "Paper Review: Van den Hoof (2016). JULES. JGRBG"
 author: "Hoontaek Lee"
 date: 2019-04-27T20:00:00+09:00
 publishdate: 2020-03-01T16:28:00+09:00

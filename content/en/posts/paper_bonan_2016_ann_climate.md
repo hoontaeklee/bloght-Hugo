@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Bonan (2016): Climate. ANN"
+title: "Paper Review: Bonan (2016). Climate. ANN"
 author: "Hoontaek Lee"
 date: 2019-04-13T20:00:00+09:00
 publishdate: 2020-03-01T16:25:00+09:00

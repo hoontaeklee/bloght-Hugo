@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Zhang (2019): CLM4.5. JGRBG"
+title: "Paper Review: Zhang (2019). CLM4.5. JGRBG"
 author: "Hoontaek Lee"
 date: 2019-05-11T20:00:00+09:00
 publishdate: 2020-03-01T16:30:00+09:00

@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Fisher (2014): TBM. ANN"
+title: "Paper Review: Fisher (2014). TBM. ANN"
 author: "Hoontaek Lee"
 date: 2019-05-18T20:00:00+09:00
 publishdate: 2020-03-01T16:31:00+09:00

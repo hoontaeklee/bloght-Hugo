@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: di Porcia e Brugnera (2019): Liana. GCB"
+title: "Paper Review: di Porcia e Brugnera (2019). Liana. GCB"
 author: "Hoontaek Lee"
 date: 2020-01-21T20:00:00+09:00
 publishdate: 2020-03-01T16:42:00+09:00

@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Dietze (2014): NSC. ANN"
+title: "Paper Review: Dietze (2014). NSC. ANN"
 author: "Hoontaek Lee"
 date: 2019-04-20T20:00:00+09:00
 publishdate: 2020-03-01T16:27:00+09:00

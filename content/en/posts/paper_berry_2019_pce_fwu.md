@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Berry (2019): FWU. PCE"
+title: "Paper Review: Berry (2019). FWU. PCE"
 author: "Hoontaek Lee"
 date: 2019-06-15T20:00:00+09:00
 publishdate: 2020-03-01T16:34:00+09:00
