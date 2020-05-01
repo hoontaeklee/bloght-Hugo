@@ -8,7 +8,7 @@ draft: false
 hideToc: false
 enableToc: true
 enableTocContent: false
-tocPosition: inner
+tocPosition: outer
 tocLevels: ["h2", "h3", "h4"]
 tags:
 - 2020
