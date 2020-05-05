@@ -25,8 +25,8 @@ tags:
 
 
 1. MPI에서는 외국인을 위한 [기초 가이드](https://www.mpg.de/4311252/Living_working_Germany.pdf)를 제공하니 한 번 읽어보자.
-
-2. <u>독일 유학 공통적인 것, MPI-bgc 한정적인 내용이 섞여있다.</u>
+2. University of Jena에서도 [좋은 가이드](http://www.jga.uni-jena.de/en/Doctoral+candidates/Incoming+_+Outgoing/Arrival+in+Germany/Non_EU_Citizens.html)를 제공한다.
+3. <u>독일 유학 공통적인 것, MPI-bgc 한정적인 내용이 섞여있다.</u>
 
 
 
@@ -45,10 +45,16 @@ tags:
   - 연구원 및 학자 비자:
 - 준비물
 - 절차
+- TMI
+  - 90일 미만 여행(체류)은 비자가 필요 없지만, 그 이상 체류하려면 Residence permit(-> visa)이 필요하다.
 
 
 
-# 집 Housing
+# 의료보험
+
+
+
+# 집 & 거주등록 Housing & 
 
 - 유용한 웹사이트
 
@@ -142,4 +148,4 @@ tags:
 
 # Log
 
-- 2020-05-05 18:22; 생성
+- 2020-05-05: 생성, 개요 작성
