@@ -1,9 +1,9 @@
 ---
-title: "Research_questions"
+title: "Research Topics"
 author: "Hoontaek Lee"
 date: 2020-02-10 11:34:48+09:00
 publishdate: 2020-02-10 11:34:48+09:00
-lastmod: 2020-04-27 12:04:48+09:00
+lastmod: 2020-05-15 11:20:48+09:00
 tags:
 - 2020
 draft: true
@@ -139,3 +139,13 @@ After integrating MT into TBMs ...
   - the source of LAI, GPP, and ET (e.g. satellites, phenology models, and  measurements)?
   - scales?
 - 
+
+
+
+# Maximum entrophy approach for simulating ecosystems
+
+
+
+- I think that the entrophy concept could probably be applied to simulate the (terrestrial) ecosystem.
+
+- Now, I have seen that the maximum entrophy approach is used in the species distribution modeling (i.e. the Max-Ent model).
