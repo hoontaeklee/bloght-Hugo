@@ -1,7 +1,7 @@
 ---
 title: "Paper Review: Trautmann (2018). TWS variation across scales. HESS"
 author: "Hoontaek Lee"
-date: 2020-06-07T16:40:00+09:00
+date: 2020-06-07T16:24:00+09:00
 description:
 draft: false
 hideToc: false
@@ -39,7 +39,9 @@ The terrestrial water storage consisted of two classifications: 1) snowpack, and
 
 ## Key findings
 
-<img src="C:\Users\Owner\Dropbox\bloght-hugo\content\en\posts\paper_review\2018_Trautmann_fig9.jpg" style="zoom:80%;" />
+<img src="/en/posts/paper_review/2018_Trautmann_fig9.jpg" style="zoom:80%;" />
+
+
 
 The seasonal TWS variation was driven by the snowpack, while inter-annual variation was dominated by liquid water storages, especially by the soil moisture.
 
@@ -47,7 +49,7 @@ The seasonal TWS variation was driven by the snowpack, while inter-annual variat
 
 ## The hydrological model
 
-<img src="C:\Users\Owner\Dropbox\bloght-hugo\content\en\posts\paper_review\2018_Trautmann_fig2.jpg" style="zoom:80%;" />
+<img src="/en/posts/paper_review/2018_Trautmann_fig2.jpg" style="zoom:80%;" />
 
 
 
