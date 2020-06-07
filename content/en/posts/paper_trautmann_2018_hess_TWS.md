@@ -15,66 +15,44 @@ tags:
 - 2020
 ---
 
-- ## 6 June, 2020 (Trautmann, HESS, TWS variation across scales)
+## 6 June, 2020 (Trautmann, HESS, TWS variation across scales)
 
-  Liu, Y., Schwalm, C.R., Samuels‐Crow, K.E. and Ogle, K. (2019), Ecological memory of daily carbon exchange across the globe and its importance in drylands. Ecol Lett, 22: 1806-1816. doi:[10.1111/ele.13363](https://doi.org/10.1111/ele.13363)
+Trautmann, T., Koirala, S., Carvalhais, N., Eicker, A., Fink, M., Niemann, C., *et al.* (2018). Understanding terrestrial water storage variations in northern latitudes across scales. *Hydrology and Earth System Sciences*, 22, 4061–4082.
 
-  
 
-  ## Why did I read this paper?
 
-  To apply the SAM framework for my paper, I needed a reference. **Professor Ogle recommended this paper** for me as I and Liu et al. have the same type of data.
+## Why did I read this paper?
 
-  **This paper would be much more important than I expected** because 1) it contains **sample R code** in which the SAM was implemented; I would directly refer to it given I will use the same kind of data (i.e. observation with a fixed timestep), and 2) **it also proposes several critical questions related to my future PhD study at MPI-bgc** (i.e. water-carbon interactions acorss scales).
+This paper contains the description and use of a hydrological model that a group I will join deals with.
 
-  
 
-  ## What did they do?
 
-  The authors quantified the antecedent effect of some key factors on NEE. They used observations from **42 FLUXNET sites**, where met **some criteria** (e.g. data availability). The factors included 1) environmental factors (shortwave radiation, temperature, VPD, current SWC, antecedent SWC, PPT), and 2) biological factors (**unexplained NEE residuals by the environment factors**).
+## What they did?
 
-  
+The hydrological model is relatively economic, or parsimonious, given small number of internal water storages (soil moisture, snowpack, and land run off), input variables (air temperature, precipitation, and net radiation), and parameters (10 params.).
 
-  ## Key findings
+After calibration, **the authors examined contribution of each water storage to the variation of total water storage at multiple spatio-temporal scales.**
 
-  - **Environmental memory is necessary to explain variation in daily NEE throughout the year**
+The terrestrial water storage consisted of two classifications: 1) snowpack, and 2) liquid water storages (i.e. soil moisture + land run off).
 
-    - various time scales (shortest by shortwave radiatoin and SWC to longest by precipitation)
-    - different responses by biomes (dry shrub lands versus forests)
-    - **insensitive to the level of leaf growing**
 
-  - Another evidence for the local compensatory effect of water availability on photosynthesis and respiration (Jung et al., 2017)
 
-    : the insensitivity to the level of leaf growing might be due to this local compensatory effect.
+## Key findings
 
-  - **Scaling relationship** between environmental memory and water stress
+<img src="C:\Users\Owner\Dropbox\bloght-hugo\content\en\posts\paper_review\2018_Trautmann_fig9.jpg" style="zoom:80%;" />
 
-    ![](/en/posts/paper_review/2019_Liu_fig1.jpg)
+The seasonal TWS variation was driven by the snowpack, while inter-annual variation was dominated by liquid water storages, especially by the soil moisture.
 
-  - **Drylands may be more vulnerable to the future droughts**
 
-    - Drylands showed more conservative strategy against resource deficit (i.e. longer-term memory)
 
-  
+## The hydrological model
 
-  ## Possible limitations
+<img src="C:\Users\Owner\Dropbox\bloght-hugo\content\en\posts\paper_review\2018_Trautmann_fig2.jpg" style="zoom:80%;" />
 
-  - **The biological memory effect should be directly quantified**: The autohrs successfully considered the biological effects even without parameterizing them in the formula. The results however showed that the major contributor of the effect were **forest practices by human and natural disturbances** (i.e. insects). I could not fully agree that they are the biological factors the authors originally inteded to investigate and **I think a method that can directly take the biological factors into account is required** rather than dealing with the unexplained residual by environmental factos.
 
-  
 
-  ## Notes
+This model is pretty simple and intuitive.
 
-  - **How does ecological memory at the daily scale propaget across other (and particularly, longer) time-scales to influence ecosystem carbon metabolism?**
-  - **How to assess ecological memory of component fluxes (e.g. photosynthesis and respiration)?**
-    - But, the overall carbon exchange could be understood without this assessment given those component fluxes are compensated out (the local compensatory effect).
-  - The ability to predict land-carbon responses to future environmental changes rests upon an adequate mechanistic understanding of **how multiple processes and their interactions give rise to memory effects.**
-  - **Environmental memory integrates multiple processes**, therefore it could provides new insight into ecological responses at various time scales.
-  - **How does the scale relationship (i.e. memory vs. aridity) form across sites within multiple biomes?**
-    - Physical delays driven by the movement of water?
+The developers took parsimoniousness into account, resulting in the relatively small number of parameters.
 
-  
-
-  ## Next
-
-  I may further explore papers in which refer to the project paper (Jung et al., 2017) to get some idea for my PhD study.
+I am curious about the criterion they used to simplify the real hydrology. Why were the vegetation components and soil properties (particle size, ...) omitted out? 
