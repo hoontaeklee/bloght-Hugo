@@ -6,7 +6,6 @@ publishdate: 2020-01-27 20:16:07+09:00
 lastmod: 2020-01-27 12:32:20+09:00
 tags:
 - 2020
-- Daily Life
 - PhD Application
 draft: false
 ---
