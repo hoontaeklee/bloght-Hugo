@@ -14,7 +14,9 @@ tags:
 - Thought
 ---
 
-![](https://i.ytimg.com/vi/mKP8e6_OpdE/maxresdefault.jpg)
+<img src="https://i.ytimg.com/vi/mKP8e6_OpdE/maxresdefault.jpg" style="zoom:40%;" />
+
+
 
 ## How do I fit well in you?
 
