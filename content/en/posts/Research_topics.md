@@ -3,7 +3,7 @@ title: "Research Topics"
 author: "Hoontaek Lee"
 date: 2020-02-10 11:34:48+09:00
 publishdate: 2020-02-10 11:34:48+09:00
-lastmod: 2020-05-15 11:20:48+09:00
+lastmod: 2020-06-26 10:02:48+09:00
 tags:
 - 2020
 draft: true
@@ -112,18 +112,18 @@ After integrating MT into TBMs ...
 
 # Examining the JULES phenology model over biomes
 
-- Does the JULES phenology model appropriately estimate the leaf area index of different biomes in the globe?
+- **Does the JULES phenology model appropriately estimate the leaf area index of different biomes in the globe?**
 
-- What are the causes of errors in LAI estimates of the JULES phenology model and how can the model be improved?
+- **What are the causes of errors in LAI estimates of the JULES phenology model and how can the model be improved?**
 
-- How does the improved JULES phenology model affect simulations of land-atmosphere exchanges (e.g. energy flux and carbon cycle)?
+- **How does the improved JULES phenology model affect simulations of land-atmosphere exchanges (e.g. energy flux and carbon cycle)?**
 
 
 
 # Examining impact of different processes at a small scale on cycles at various larger scales and their interactions
 
-- Does the propagation look different between different models?
-- Does the propagation look different between models and observations?
+- **Does the propagation look different between different models?**
+- **Does the propagation look different between models and observations?**
 - Which process? + which approach/expression for depicting the process? (target of comparison)
   - leaf scale? tree scale? ecosystem scale? global scale?
   - leaf scale
@@ -135,9 +135,9 @@ After integrating MT into TBMs ...
 
 # Applying the SAM framework
 
-- Are antecedent effects of environmental and biological variables different by 
-  - the source of LAI, GPP, and ET (e.g. satellites, phenology models, and  measurements)?
-  - scales?
+- **Are antecedent effects of environmental and biological variables different by** 
+  - **the source of LAI, GPP, and ET (e.g. satellites, phenology models, and  measurements)?**
+  - **scales?**
 - 
 
 
@@ -146,6 +146,20 @@ After integrating MT into TBMs ...
 
 
 
+- **How can the maximum entrophy concept be used for simulating ecosystems (e.g. forest ecosystem and Earth system)?**
 - I think that the entrophy concept could probably be applied to simulate the (terrestrial) ecosystem.
-
 - Now, I have seen that the maximum entrophy approach is used in the species distribution modeling (i.e. the Max-Ent model).
+
+
+
+# Potential increase in uncertainty with increaesing Tropical forests under climate change
+
+
+
+- **What will be the fate of the uncertainty in functioning of the Earth system?**
+- Tropical forests are the major source of uncertainties in simulating the Earth system (Cano et al., 2020; ...), and their area is anticipated to be increased (...). 
+- At the same time, changes in areas of other biomes are also expected.
+- Because the contribution of each biome to the simulation uncertainty is various, changes in portions of biomes may be affect the performance of simulation.
+
+
+
