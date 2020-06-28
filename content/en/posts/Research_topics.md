@@ -1,4 +1,3 @@
----
 title: "Research Topics"
 author: "Hoontaek Lee"
 date: 2020-02-10 11:34:48+09:00
@@ -7,7 +6,6 @@ lastmod: 2020-06-26 10:02:48+09:00
 tags:
 - 2020
 draft: true
----
 
 # Optimal temperature for photosynthesis
 
@@ -163,3 +161,20 @@ After integrating MT into TBMs ...
 
 
 
+# Disclosing the other side of a coin: what has the South Korea been lost after they succeeded in a government-driven greening campaign.   
+
+
+
+- **단일 수종 녹화사업을 진행한 후 무엇을 잃었을까?**
+
+- 최근 미국의 한 연구진은 칠레 사례를 들어 **대규모 조림사업이 오히려 부정적인 결과를 가져올 수 있다**고 발표했다(https://www.sciencedaily.com/releases/2020/06/200622133012.htm; https://www.nature.com/articles/s41893-020-0547-0).
+
+- 조림 정책의 디자인이 올바르지 못하면 **생물다양성 감소, 토착종/외래종 비율 감소, 탄소 저장량 감소** 등의 결과를 초래할 수 있다.
+
+- 우리나라는 산림 녹화에 성공한 대표적인 국가이다. 해당 녹화사업에서는 척박한 토양에서 견딜 수 있는 수종을 선택해야 했기에 몇 가지 수종으로만 **조림 수종이 한정되었다.**
+
+  - 어쩔 수 없는 선택이었기 때문에 그 때 그 선택이 잘못됐기보다는 앞으로 가능한 선택끼리 비교하는 게 맞다?(조림 시나리오별 생물다양성, 탄소저장량, 재해(가뭄, 폭염, 병충해, 산불, ...)에 대한resilience&resistance ... 등 시뮬레이션)
+
+- **가까운 미래에 시행 될 조림사업에서 가능한 선택지에 따른 결과를 비교하고 어떤 선택을 해야 할지 방향을 제시할 수 있다.**
+
+  
