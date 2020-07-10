@@ -85,8 +85,8 @@ commento = false
   clientSecret = ""       # Your client secret
 
 [utterances]       # https://utteranc.es/
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
+  owner = "hoontaeklee"              # Your GitHub ID
+  repo = "bloght-hugo-comments"               # The repo to store comments
 
 [gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
   owner = ""              # Your GitHub ID
