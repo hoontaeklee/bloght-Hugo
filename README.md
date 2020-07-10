@@ -391,6 +391,7 @@ commento = false
   xmpp = ""
   dev-to = ""
   gitea = ""
+  google-scholar = ""
 
 [donationOptions]
   enable = false # if set, the donation button will show up on the single page.
@@ -1107,7 +1108,7 @@ Some markdown contents
   {{< code >}}
   ```java
   System.out.println('Hello World!');
-  ```
+```
   {{< /code >}}
   {{< code >}}
   ```javascript
@@ -1147,4 +1148,7 @@ So, If you just copy-paste the tabs with multiple times, since it has the same c
   Great!
   {{< /tab >}}
 {{< /tabs >}}
+
+`````
+
 `````
