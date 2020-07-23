@@ -1,5 +1,5 @@
 ---
-title: "Paper Review: Liu (2019). SAM->NEE. ELE"
+title: "Paper Review: Liu (2019). SAM->NEE across biomes. ELE"
 author: "Hoontaek Lee"
 date: 2020-05-01T13:43:04+09:00
 description:
@@ -15,7 +15,7 @@ tags:
 - 2020
 ---
 
-## 1 May, 2020 (Liu, ELE, SAM->NEE)
+## 1 May, 2020 (Liu, ELE, SAM->NEE across biomes)
 
 Liu, Y., Schwalm, C.R., Samuels‐Crow, K.E. and Ogle, K. (2019), Ecological memory of daily carbon exchange across the globe and its importance in drylands. Ecol Lett, 22: 1806-1816. doi:[10.1111/ele.13363](https://doi.org/10.1111/ele.13363)
 
@@ -78,3 +78,4 @@ The authors quantified the antecedent effect of some key factors on NEE. They us
 ## Next
 
 I may further explore papers in which refer to the project paper (Jung et al., 2017) to get some idea for my PhD study.
+

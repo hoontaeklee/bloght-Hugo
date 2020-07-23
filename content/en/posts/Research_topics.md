@@ -1,11 +1,13 @@
+---
 title: "Research Topics"
 author: "Hoontaek Lee"
 date: 2020-02-10 11:34:48+09:00
 publishdate: 2020-02-10 11:34:48+09:00
 lastmod: 2020-06-26 10:02:48+09:00
+draft: true
 tags:
 - 2020
-draft: true
+---
 
 # Optimal temperature for photosynthesis
 
@@ -163,8 +165,6 @@ After integrating MT into TBMs ...
 
 # Disclosing the other side of a coin: what has the South Korea been lost after they succeeded in a government-driven greening campaign.   
 
-
-
 - **단일 수종 녹화사업을 진행한 후 무엇을 잃었을까?**
 
 - 최근 미국의 한 연구진은 칠레 사례를 들어 **대규모 조림사업이 오히려 부정적인 결과를 가져올 수 있다**고 발표했다(https://www.sciencedaily.com/releases/2020/06/200622133012.htm; https://www.nature.com/articles/s41893-020-0547-0).
@@ -178,3 +178,12 @@ After integrating MT into TBMs ...
 - **가까운 미래에 시행 될 조림사업에서 가능한 선택지에 따른 결과를 비교하고 어떤 선택을 해야 할지 방향을 제시할 수 있다.**
 
   
+
+# Various temporal scales over which antecedent variables affect different biomes and the resulted differences in fluxes.
+
+- Why do different biomes have different temporal scales over which they respond to antecedent variables?
+  - Samuels-Crow et al (2020, JGR-bg): in its discussion, they said that the arid region showed the longest memory.
+- What will be the effect of the difference on water and carbon cycles across scales?
+  - At least we can explore the results of the scale difference via simulations even though we do not know the reason behind the difference.
+- 
+
