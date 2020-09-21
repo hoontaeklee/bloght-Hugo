@@ -25,7 +25,7 @@ Liu, Y., Schwalm, C.R., Samuels‐Crow, K.E. and Ogle, K. (2019), Ecological mem
 
 To apply the SAM framework for my paper, I needed a reference. **Professor Ogle recommended this paper** for me as I and Liu et al. have the same type of data.
 
-**This paper would be much more important than I expected** because 1) it contains **sample R code** in which the SAM was implemented; I would directly refer to it given I will use the same kind of data (i.e. observation with a fixed timestep), and 2) **it also proposes several critical questions related to my future PhD study at MPI-bgc** (i.e. water-carbon interactions acorss scales).
+**This paper would be much more important than I expected** because 1) it contains **sample R code** in which the SAM was implemented; I would directly refer to it given I will use the same kind of data (i.e. observation with a fixed timestep), and 2) **it also proposes several critical questions related to my future PhD study at MPI-bgc** (i.e. water-carbon interactions across scales).
 
 
 
@@ -39,7 +39,7 @@ The authors quantified the antecedent effect of some key factors on NEE. They us
 
 - **Environmental memory is necessary to explain variation in daily NEE throughout the year**
 
-  - various time scales (shortest by shortwave radiatoin and SWC to longest by precipitation)
+  - various time scales (shortest by shortwave radiation and SWC to longest by precipitation)
   - different responses by biomes (dry shrub lands versus forests)
   - **insensitive to the level of leaf growing**
 
@@ -49,7 +49,7 @@ The authors quantified the antecedent effect of some key factors on NEE. They us
 
 - **Scaling relationship** between environmental memory and water stress
 
-  ![](/en/posts/paper_review/2019_Liu_fig1.jpg)
+  ![](/en/posts/figures/paper_review/2019_Liu_fig1.jpg)
 
 - **Drylands may be more vulnerable to the future droughts**
   
@@ -59,13 +59,13 @@ The authors quantified the antecedent effect of some key factors on NEE. They us
 
 ## Possible limitations
 
-- **The biological memory effect should be directly quantified**: The autohrs successfully considered the biological effects even without parameterizing them in the formula. The results however showed that the major contributor of the effect were **forest practices by human and natural disturbances** (i.e. insects). I could not fully agree that they are the biological factors the authors originally inteded to investigate and **I think a method that can directly take the biological factors into account is required** rather than dealing with the unexplained residual by environmental factos.
+- **The biological memory effect should be directly quantified**: The authors successfully considered the biological effects even without parameterizing them in the formula. The results however showed that the major contributor of the effect were **forest practices by human and natural disturbances** (i.e. insects). I could not fully agree that they are the biological factors the authors originally intended to investigate and **I think a method that can directly take the biological factors into account is required** rather than dealing with the unexplained residual by environmental factors.
 
 
 
 ## Notes
 
-- **How does ecological memory at the daily scale propaget across other (and particularly, longer) time-scales to influence ecosystem carbon metabolism?**
+- **How does ecological memory at the daily scale propagate across other (and particularly, longer) time-scales to influence ecosystem carbon metabolism?**
 - **How to assess ecological memory of component fluxes (e.g. photosynthesis and respiration)?**
   - But, the overall carbon exchange could be understood without this assessment given those component fluxes are compensated out (the local compensatory effect).
 - The ability to predict land-carbon responses to future environmental changes rests upon an adequate mechanistic understanding of **how multiple processes and their interactions give rise to memory effects.**
