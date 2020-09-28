@@ -36,9 +36,9 @@ email = "lht3718@gmail.com"
 whoami = "Tree-Forest-Climate Researcher"
 bioImageUrl = ""
 useGravatar = false
-location = "Seoul, Korea"
-organization = "NIFOS"
-link = "https://hoontaeklee.github.io/en"
+location = "Jena, Germany"
+organization = "Max Planck Institute for Biogeochemistry"
+link = "https://www.bgc-jena.mpg.de/bgi/index.php/People/HoontaekLee"
 
 # sidebar
 enableBio = true
@@ -150,7 +150,7 @@ commento = false
   xmpp = ""
   dev-to = ""
   gitea = ""
-  google-scholar = ""
+  google-scholar = "https://scholar.google.co.kr/"
 
 [donationOptions]
   enable = false
