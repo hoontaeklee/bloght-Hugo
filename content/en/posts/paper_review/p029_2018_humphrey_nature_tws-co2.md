@@ -54,7 +54,7 @@ Figure 3:
   - A 28% decrease (-0.93 Gt C yr<sup>-1</sup> per Tt H<sub>2</sub>O)
 - The global CGR-Temperature shows more reduction after controlling for the effect of TWS (**b**, red bars).
   - A 49% decrease (1.99 Gt C yr<sup>-1</sup> per degC)
-- Global yearly sensitivity is **-1.33 Gt C yr<sup>-1</sup> per Tt H<sub>2</sub>O** (= 1.3 g C yr<sup>-1</sup> per kg H2O)
+- Global yearly sensitivity is **-1.33 Gt C yr<sup>-1</sup> per Tt H<sub>2</sub>O** (= -1.3 g C yr<sup>-1</sup> per kg H2O)
 
 <br>
 
