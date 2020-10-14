@@ -15,7 +15,7 @@ tags:
 - 2020
 ---
 
-## 12 October, 2020 (Green, ng, regional feedbacks)
+## 12 October, 2017 (Green, ng, regional feedbacks)
 
 Green, J., Konings, A., Alemohammad, S. *et al.* Regionally strong feedbacks between the atmosphere and terrestrial biosphere. *Nature Geosci* **10,** 410–414 (2017). https://doi.org/10.1038/ngeo2957
 
